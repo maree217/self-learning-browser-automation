@@ -1,0 +1,184 @@
+[
+  {
+    "id": "nav-001",
+    "description": "Navigate to simple HTTP page",
+    "status": "passed",
+    "duration_ms": 1632
+  },
+  {
+    "id": "nav-002",
+    "description": "Navigate to HTTPS page",
+    "status": "passed",
+    "duration_ms": 37
+  },
+  {
+    "id": "nav-003",
+    "description": "Navigate with network idle wait",
+    "status": "failed",
+    "duration_ms": 22064,
+    "details": {
+      "result": {
+        "status": "success",
+        "data": {
+          "url": "https://httpbin.org/get",
+          "title": "",
+          "domain": "httpbin.org"
+        },
+        "duration_ms": 22052
+      },
+      "exceedsDurationLimit": true,
+      "maxDuration": 10000,
+      "actualDuration": 22064
+    }
+  },
+  {
+    "id": "nav-004",
+    "description": "Navigate back in history",
+    "status": "passed",
+    "duration_ms": 55707
+  },
+  {
+    "id": "nav-005",
+    "description": "Navigate forward in history",
+    "status": "passed",
+    "duration_ms": 36166
+  },
+  {
+    "id": "interact-001",
+    "description": "Click on link element",
+    "status": "passed",
+    "duration_ms": 1130
+  },
+  {
+    "id": "interact-002",
+    "description": "Fill input field",
+    "status": "passed",
+    "duration_ms": 182
+  },
+  {
+    "id": "interact-003",
+    "description": "Type text with delay",
+    "status": "passed",
+    "duration_ms": 1980
+  },
+  {
+    "id": "interact-004",
+    "description": "Press keyboard key",
+    "status": "passed",
+    "duration_ms": 45
+  },
+  {
+    "id": "interact-005",
+    "description": "Press key combination",
+    "status": "passed",
+    "duration_ms": 26
+  },
+  {
+    "id": "interact-006",
+    "description": "Hover over element",
+    "status": "passed",
+    "duration_ms": 76
+  },
+  {
+    "id": "interact-007",
+    "description": "Wait for element to be visible",
+    "status": "passed",
+    "duration_ms": 34
+  },
+  {
+    "id": "content-001",
+    "description": "Take accessibility tree snapshot",
+    "status": "passed",
+    "duration_ms": 45
+  },
+  {
+    "id": "content-002",
+    "description": "Get page content as text",
+    "status": "passed",
+    "duration_ms": 41
+  },
+  {
+    "id": "content-003",
+    "description": "Get page content as HTML",
+    "status": "passed",
+    "duration_ms": 22
+  },
+  {
+    "id": "content-004",
+    "description": "Execute JavaScript on page",
+    "status": "passed",
+    "duration_ms": 27
+  },
+  {
+    "id": "session-001",
+    "description": "List all browser sessions",
+    "status": "passed",
+    "duration_ms": 0
+  },
+  {
+    "id": "session-002",
+    "description": "Save session for domain",
+    "status": "passed",
+    "duration_ms": 21
+  },
+  {
+    "id": "session-003",
+    "description": "Enable shared context mode",
+    "status": "passed",
+    "duration_ms": 0
+  },
+  {
+    "id": "session-004",
+    "description": "Disable shared context mode",
+    "status": "passed",
+    "duration_ms": 0
+  },
+  {
+    "id": "session-005",
+    "description": "Clear session for domain",
+    "status": "passed",
+    "duration_ms": 1653
+  },
+  {
+    "id": "oauth-001",
+    "description": "OAuth flow with shared context",
+    "status": "passed",
+    "duration_ms": 7284
+  },
+  {
+    "id": "error-001",
+    "description": "Handle non-existent domain",
+    "status": "passed",
+    "duration_ms": 1776
+  },
+  {
+    "id": "error-002",
+    "description": "Handle missing element",
+    "status": "passed",
+    "duration_ms": 1038
+  },
+  {
+    "id": "error-003",
+    "description": "Handle timeout waiting for element",
+    "status": "passed",
+    "duration_ms": 1036
+  },
+  {
+    "id": "perf-001",
+    "description": "Fast page load",
+    "status": "passed",
+    "duration_ms": 24
+  },
+  {
+    "id": "perf-002",
+    "description": "Fast snapshot generation",
+    "status": "passed",
+    "duration_ms": 23
+  },
+  {
+    "id": "perf-003",
+    "description": "Fast JavaScript execution",
+    "status": "passed",
+    "duration_ms": 21
+  }
+]

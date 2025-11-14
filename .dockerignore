@@ -1,0 +1,65 @@
+# Dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README*.md
+CHANGELOG.md
+LICENSE
+docs/
+
+# Tests
+tests/
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs (will be generated in container)
+logs/
+*.log
+
+# Build artifacts (keeping dist/)
+src/
+tsconfig.json
+jest.config.js
+
+# Test sessions
+.test-sessions/
+
+# Evaluation
+evaluation/
+
+# Package lock (already in container)
+package-lock.json
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Temporary files
+tmp/
+temp/
+*.tmp

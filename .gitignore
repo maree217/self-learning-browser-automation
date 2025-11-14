@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+venv/
+
+# Build output
+dist/
+*.js
+*.js.map
+*.d.ts
+!jest.config.js
+
+# Logs
+logs/
+*.log
+traces.jsonl
+
+# Session data (sensitive)
+sessions/
+.browser-mcp/
+
+# Training data (may contain sensitive info)
+training-data/
+models/
+
+# Tests
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (from earlier script)
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/

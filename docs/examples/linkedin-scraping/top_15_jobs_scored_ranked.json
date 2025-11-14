@@ -1,0 +1,635 @@
+{
+  "scoring_date": "2025-11-09",
+  "scoring_criteria": {
+    "skill_match": {
+      "weight": 0.40,
+      "key_areas": ["Azure/Cloud expertise", "AI/ML capability", "GenAI/LLMs", "Enterprise architecture", "MLOps/LLMOps"]
+    },
+    "seniority_level": {
+      "weight": 0.20,
+      "target": "Senior/Lead/Principal/Architect level with strategic scope"
+    },
+    "company_quality": {
+      "weight": 0.20,
+      "factors": ["Reputation", "Tech stack modernity", "Compensation", "Engineering culture"]
+    },
+    "role_attractiveness": {
+      "weight": 0.20,
+      "factors": ["Growth opportunity", "Impact potential", "Work arrangement", "Team/reporting"]
+    }
+  },
+  "jobs_ranked": [
+    {
+      "final_rank": 1,
+      "jobId": "4316957846",
+      "title": "Principal AI Architect",
+      "company": "LSEG (London Stock Exchange Group)",
+      "location": "London, England, United Kingdom (Hybrid)",
+      "total_score": 92,
+      "breakdown": {
+        "skill_match": 38,
+        "seniority_level": 20,
+        "company_quality": 18,
+        "role_attractiveness": 16
+      },
+      "url": "https://www.linkedin.com/jobs/view/4316957846/",
+      "strengths": [
+        "Top-tier financial institution with excellent reputation",
+        "Hands-on technical role with strategic scope - perfect balance",
+        "Strong engineering culture (SOLID principles, code reviews, CI/CD)",
+        "Modern AI stack: LLMs, RAG, vector databases, LangChain, MLflow, Databricks",
+        "Financial services domain expertise (AML/Risk Intelligence)",
+        "Principal level with leadership and mentorship responsibilities",
+        "Multi-cloud exposure (AWS, GCP, Azure)",
+        "Focus on MLOps, model governance, and production systems",
+        "Hybrid working in London"
+      ],
+      "concerns": [
+        "No salary listed",
+        "FinCrime/AML domain may be niche (but highly valuable)",
+        "May require financial services background"
+      ],
+      "recommendation": "APPLY - Top match. Ideal blend of technical depth, strategic scope, and company quality. LSEG is a prestigious institution with strong engineering practices. The role perfectly balances hands-on technical work with architecture leadership."
+    },
+    {
+      "final_rank": 2,
+      "jobId": "4318397092",
+      "title": "Field Solutions Architect, GenAI, Google Cloud",
+      "company": "Google",
+      "location": "London, England, United Kingdom (On-site)",
+      "total_score": 90,
+      "breakdown": {
+        "skill_match": 36,
+        "seniority_level": 18,
+        "company_quality": 20,
+        "role_attractiveness": 16
+      },
+      "url": "https://www.linkedin.com/jobs/view/4318397092/",
+      "strengths": [
+        "Top-tier tech company (FAANG) - Google brand premium",
+        "Cutting-edge GenAI focus with Vertex AI, PaLM, Gemini",
+        "Strong technical requirements (7+ years, Python, TensorFlow, PyTorch)",
+        "Exposure to RAG, vector databases, LLM orchestration",
+        "Customer-facing with executive presentation opportunities",
+        "Influence on product roadmaps",
+        "Excellent compensation and benefits package",
+        "World-class engineering culture"
+      ],
+      "concerns": [
+        "On-site only (no hybrid flexibility)",
+        "May be more sales/pre-sales focused than pure architecture",
+        "Google Cloud ecosystem lock-in (less multi-cloud)",
+        "No Easy Apply - competitive application process"
+      ],
+      "recommendation": "APPLY - Excellent opportunity. Google brand opens doors. Trade-off is on-site requirement vs top-tier company quality."
+    },
+    {
+      "final_rank": 3,
+      "jobId": "4314034147",
+      "title": "AI Solutions Architect",
+      "company": "Revoco",
+      "location": "London Area, United Kingdom (Hybrid)",
+      "total_score": 89,
+      "breakdown": {
+        "skill_match": 40,
+        "seniority_level": 18,
+        "company_quality": 15,
+        "role_attractiveness": 16
+      },
+      "url": "https://www.linkedin.com/jobs/view/4314034147/",
+      "strengths": [
+        "HIGHEST SALARY: £130K + 15% bonus + equity",
+        "Perfect technical stack match: Python, LLMs, GenAI frameworks (LangChain, AutoGen, CrewAI)",
+        "Strong focus on RAG, multi-agent systems, agentic AI",
+        "10+ years experience requirement - senior role",
+        "MLOps/LLMOps emphasis",
+        "Hybrid working (2 days/week onsite)",
+        "Easy Apply",
+        "Modern AI-native company building SaaS products",
+        "Vector databases, graph databases exposure"
+      ],
+      "concerns": [
+        "Revoco is smaller/less established than Google/AWS/LSEG",
+        "Company reputation/stability unknown",
+        "May lack enterprise resources of larger firms",
+        "SaaS product development vs consulting diversity"
+      ],
+      "recommendation": "APPLY - Highest salary with perfect technical match. Great for deep GenAI/LLM expertise building. Company risk is offset by compensation."
+    },
+    {
+      "final_rank": 4,
+      "jobId": "4295424486",
+      "title": "Senior Data & AI Architect, AWS Professional Services",
+      "company": "Amazon Web Services (AWS)",
+      "location": "London, England, United Kingdom",
+      "total_score": 87,
+      "breakdown": {
+        "skill_match": 35,
+        "seniority_level": 18,
+        "company_quality": 20,
+        "role_attractiveness": 14
+      },
+      "url": "https://www.linkedin.com/jobs/view/4295424486/",
+      "strengths": [
+        "Top-tier company (AWS/Amazon)",
+        "AWS ProServe is prestigious consulting arm",
+        "Broad exposure to enterprise customers and use cases",
+        "Strong AWS platform expertise (SageMaker, Bedrock, etc.)",
+        "Career growth opportunities within Amazon",
+        "Excellent compensation (base + equity + sign-on bonus)",
+        "Data + AI combined expertise building",
+        "Mentorship opportunities"
+      ],
+      "concerns": [
+        "Up to 50% travel required - heavy customer site visits",
+        "More data-focused than pure AI/GenAI",
+        "Consulting can be demanding with tight timelines",
+        "AWS ecosystem lock-in (less multi-cloud exposure)",
+        "No Easy Apply",
+        "Work mode not specified (likely hybrid but unclear)"
+      ],
+      "recommendation": "APPLY - AWS brand is strong. Great for broad enterprise exposure. Travel requirement may be a dealbreaker depending on personal situation."
+    },
+    {
+      "final_rank": 5,
+      "jobId": "4317871060",
+      "title": "Principal Architect - Gen AI",
+      "company": "Sky",
+      "location": "London Area, United Kingdom (Hybrid)",
+      "total_score": 85,
+      "breakdown": {
+        "skill_match": 34,
+        "seniority_level": 20,
+        "company_quality": 17,
+        "role_attractiveness": 14
+      },
+      "url": "https://www.linkedin.com/jobs/view/4317871060/",
+      "strengths": [
+        "Large enterprise (Sky/Comcast) - stable and well-known",
+        "Strategic Principal Architect role - high influence",
+        "Focus on AI strategy, not just implementation",
+        "Streaming platform domain expertise",
+        "10+ years requirement - senior level",
+        "Vendor-agnostic AI platform design",
+        "Work with business leaders and product teams",
+        "Hybrid working",
+        "Strong emphasis on agentic AI and LLMs"
+      ],
+      "concerns": [
+        "No salary listed",
+        "Media/streaming domain may limit transferability",
+        "May be more strategic/governance than hands-on technical",
+        "Sky is traditional media company transitioning to tech",
+        "No Easy Apply",
+        "Less cutting-edge than pure tech companies"
+      ],
+      "recommendation": "APPLY - Good strategic leadership opportunity. Sky is investing heavily in AI transformation. Excellent for portfolio diversification."
+    },
+    {
+      "final_rank": 6,
+      "jobId": "4304042525",
+      "title": "Data & AI Architect",
+      "company": "Avanade",
+      "location": "London, England, United Kingdom",
+      "total_score": 82,
+      "breakdown": {
+        "skill_match": 33,
+        "seniority_level": 16,
+        "company_quality": 16,
+        "role_attractiveness": 17
+      },
+      "url": "https://www.linkedin.com/jobs/view/4304042525/",
+      "strengths": [
+        "Large consultancy (Accenture + Microsoft JV)",
+        "Strong Microsoft ecosystem focus (Fabric, Databricks)",
+        "Agentic AI emphasis",
+        "Client-facing with deal shaping opportunities",
+        "Mentorship and leadership responsibilities",
+        "Globally recognized team",
+        "Diverse project exposure across industries",
+        "Data + AI combined expertise"
+      ],
+      "concerns": [
+        "Consultancy lifestyle (client-facing, potential travel)",
+        "Microsoft-heavy (less multi-cloud)",
+        "No salary listed",
+        "Work mode not specified",
+        "No Easy Apply",
+        "Title is 'Data & AI' not pure AI - may be more data platform focused",
+        "Consultancy can be high-pressure with billability targets"
+      ],
+      "recommendation": "CONSIDER - Good if you want Microsoft/Fabric expertise and consulting experience. Less attractive if seeking pure AI architecture focus."
+    },
+    {
+      "final_rank": 7,
+      "jobId": "4331305651",
+      "title": "Lead AI Solutions Engineer",
+      "company": "causaLens",
+      "location": "London Area, United Kingdom (Hybrid)",
+      "total_score": 80,
+      "breakdown": {
+        "skill_match": 32,
+        "seniority_level": 16,
+        "company_quality": 14,
+        "role_attractiveness": 18
+      },
+      "url": "https://www.linkedin.com/jobs/view/4331305651/",
+      "strengths": [
+        "Scale-up with impressive clients (Cisco, Johnson & Johnson, Canon)",
+        "Agentic AI focus - cutting edge",
+        "Client-facing with enterprise customers",
+        "Solution architecture mindset emphasized",
+        "Hybrid working",
+        "Easy Apply",
+        "Share options + benefits",
+        "RAG, MCPs, agentic workflows mentioned",
+        "Strong emphasis on structured problem-solving"
+      ],
+      "concerns": [
+        "Scale-up risk vs established companies",
+        "No salary listed",
+        "Title 'Solutions Engineer' may be less prestigious than 'Architect'",
+        "Technical depth requirements lower (LLMs/RAG experience is 'a plus but not required')",
+        "Smaller company means fewer resources",
+        "May be more delivery/implementation than pure architecture"
+      ],
+      "recommendation": "CONSIDER - Good for those wanting scale-up experience and agentic AI exposure. Less attractive than top-tier companies."
+    },
+    {
+      "final_rank": 8,
+      "jobId": "4266646260",
+      "title": "Principal Data Platform Architect, Technology Consulting",
+      "company": "Credera",
+      "location": "London Area, United Kingdom (Hybrid)",
+      "total_score": 78,
+      "breakdown": {
+        "skill_match": 30,
+        "seniority_level": 18,
+        "company_quality": 14,
+        "role_attractiveness": 16
+      },
+      "url": "https://www.linkedin.com/jobs/view/4266646260/",
+      "strengths": [
+        "SALARY TRANSPARENCY: £95K - £113K",
+        "Principal level with 8+ years requirement",
+        "GenAI and LLM implementation focus",
+        "Data platform + AI combined",
+        "Client advisory role",
+        "Hybrid working",
+        "Mentorship opportunities",
+        "Streaming technologies (Kafka, Kinesis, Event Hub)"
+      ],
+      "concerns": [
+        "Salary below top offers (£95K-£113K vs £130K at Revoco)",
+        "More data platform focused than pure AI",
+        "Consulting firm (not as well-known as Accenture/Deloitte)",
+        "No Easy Apply",
+        "Heavy data engineering emphasis may dilute AI focus",
+        "Client-facing consulting with potential travel"
+      ],
+      "recommendation": "CONSIDER - Good for data platform + AI hybrid role. Salary is decent but not top-tier. Consulting exposure is valuable."
+    },
+    {
+      "final_rank": 9,
+      "jobId": "4314042266",
+      "title": "GenAI Solution Architect",
+      "company": "Capgemini",
+      "location": "London Area, United Kingdom (On-site)",
+      "total_score": 77,
+      "breakdown": {
+        "skill_match": 32,
+        "seniority_level": 15,
+        "company_quality": 15,
+        "role_attractiveness": 15
+      },
+      "url": "https://www.linkedin.com/jobs/view/4314042266/",
+      "strengths": [
+        "Large global consultancy",
+        "Pure GenAI focus",
+        "Multi-cloud (Azure, AWS, GCP)",
+        "Actively reviewing applicants",
+        "Easy Apply",
+        "PoC and pilot deployment experience",
+        "Responsible AI and governance emphasis",
+        "Client stakeholder engagement"
+      ],
+      "concerns": [
+        "On-site only (no hybrid flexibility)",
+        "No salary listed",
+        "Capgemini is large consultancy - can be bureaucratic",
+        "5+ years requirement is lower (less senior than others)",
+        "Generic consultancy role - less specialized",
+        "May involve heavy travel and client demands"
+      ],
+      "recommendation": "CONSIDER - Decent GenAI opportunity. On-site requirement and consultancy lifestyle are drawbacks. Easy Apply is a plus."
+    },
+    {
+      "final_rank": 10,
+      "jobId": "4320631153",
+      "title": "Enterprise Architect, Agentic AI Implementation",
+      "company": "Tata Consultancy Services (TCS)",
+      "location": "Greater London, England, United Kingdom (Hybrid)",
+      "total_score": 75,
+      "breakdown": {
+        "skill_match": 31,
+        "seniority_level": 16,
+        "company_quality": 12,
+        "role_attractiveness": 16
+      },
+      "url": "https://www.linkedin.com/jobs/view/4320631153/",
+      "strengths": [
+        "Agentic AI specialization - cutting edge",
+        "Azure focus (Azure AI Studio, Azure OpenAI, Databricks)",
+        "Enterprise architecture framework (TOGAF)",
+        "Actively reviewing applicants",
+        "Easy Apply",
+        "Hybrid working",
+        "Multi-agent orchestration focus",
+        "AutoGen, LangChain, CrewAI mentioned"
+      ],
+      "concerns": [
+        "TCS has reputation as body shop/staff augmentation",
+        "Typically lower compensation than product companies",
+        "No salary listed",
+        "May involve client staffing rather than TCS internal",
+        "Company quality perception lower than Google/AWS/LSEG",
+        "Career growth may be limited"
+      ],
+      "recommendation": "BACKUP - Good technical match but company concerns. Apply if interested in agentic AI but lower priority than top-tier companies."
+    },
+    {
+      "final_rank": 11,
+      "jobId": "4306933798",
+      "title": "Pre Sales AI Architect",
+      "company": "Version 1",
+      "location": "London, England, United Kingdom (Remote)",
+      "total_score": 74,
+      "breakdown": {
+        "skill_match": 30,
+        "seniority_level": 15,
+        "company_quality": 14,
+        "role_attractiveness": 15
+      },
+      "url": "https://www.linkedin.com/jobs/view/4306933798/",
+      "strengths": [
+        "Remote working",
+        "Great Place to Work certified (10+ years)",
+        "Large established partner (AWS, Microsoft, Oracle)",
+        "Easy Apply",
+        "Pre-sales focus may mean less delivery pressure",
+        "Multi-cloud exposure (Azure ML, AWS SageMaker, Vertex AI)",
+        "RFP/proposal writing skills building",
+        "Good company culture (300m revenue, 3300+ employees)"
+      ],
+      "concerns": [
+        "Pre-sales role - not pure architecture (may involve heavy sales support)",
+        "No salary listed",
+        "Partner company rather than product/platform company",
+        "May involve significant PoC and demo work",
+        "Less cutting-edge than product companies",
+        "Pre-sales can be unpredictable with pipeline dependencies"
+      ],
+      "recommendation": "BACKUP - Good for remote work and pre-sales experience. Less attractive if seeking hands-on architecture and delivery."
+    },
+    {
+      "final_rank": 12,
+      "jobId": "4270101051",
+      "title": "Senior/Principal Solutions Architect, Open Source AI",
+      "company": "OpenTeams",
+      "location": "London, England, United Kingdom (Remote)",
+      "total_score": 72,
+      "breakdown": {
+        "skill_match": 28,
+        "seniority_level": 16,
+        "company_quality": 12,
+        "role_attractiveness": 16
+      },
+      "url": "https://www.linkedin.com/jobs/view/4270101051/",
+      "strengths": [
+        "Remote working",
+        "Open-source focus - mission-driven",
+        "Senior/Principal level flexibility",
+        "Strong technical stack (PyTorch, JAX, Kubeflow, Ray, MCP)",
+        "Pre-sales support but also implementation",
+        "Community engagement and thought leadership",
+        "3% profit reinvestment to open-source community"
+      ],
+      "concerns": [
+        "Smaller company - less known than established firms",
+        "No salary listed",
+        "No Easy Apply",
+        "Open-source focus may mean lower compensation",
+        "Company stability/funding unclear",
+        "May require significant community contribution work",
+        "Pre-sales heavy with RFP/RFI responsibilities"
+      ],
+      "recommendation": "BACKUP - Good if passionate about open-source and remote work. Lower priority due to company size and open-source compensation norms."
+    },
+    {
+      "final_rank": 13,
+      "jobId": "4315333158",
+      "title": "AI Architect",
+      "company": "Digital Futures",
+      "location": "London, England, United Kingdom (Hybrid)",
+      "total_score": 68,
+      "breakdown": {
+        "skill_match": 26,
+        "seniority_level": 12,
+        "company_quality": 12,
+        "role_attractiveness": 18
+      },
+      "url": "https://www.linkedin.com/jobs/view/4315333158/",
+      "strengths": [
+        "Mission-led company - social impact focus",
+        "Hybrid working",
+        "Accelerated growth stage",
+        "Agentic systems focus",
+        "Good benefits (flexible holiday, wellbeing budget, professional development)",
+        "Kubernetes, microservices, event-driven architectures",
+        "Mentorship opportunities"
+      ],
+      "concerns": [
+        "Only 4+ years experience required - junior for architect role",
+        "No salary listed",
+        "No Easy Apply",
+        "Small company - Digital Futures not well-known",
+        "Mission-led may mean lower compensation",
+        "Less technical depth in job description",
+        "May be less mature in practices than established firms"
+      ],
+      "recommendation": "BACKUP - Good for those seeking mission-driven work and growth-stage experience. Lower seniority level is concern."
+    },
+    {
+      "final_rank": 14,
+      "jobId": "4284447108",
+      "title": "Chief Architect",
+      "company": "SymphonyAI",
+      "location": "London, England, United Kingdom (Hybrid)",
+      "total_score": 65,
+      "breakdown": {
+        "skill_match": 28,
+        "seniority_level": 20,
+        "company_quality": 11,
+        "role_attractiveness": 6
+      },
+      "url": "https://www.linkedin.com/jobs/view/4284447108/",
+      "strengths": [
+        "Chief Architect - very senior title",
+        "Highly specialized (FinCrime/AML/Fraud detection)",
+        "15+ years requirement - senior role",
+        "Deep AI/ML focus with LLMs, RAG, multi-agent systems",
+        "Hybrid working",
+        "Strategic architecture leadership",
+        "Azure-first with AWS support",
+        "Model Risk Management expertise building"
+      ],
+      "concerns": [
+        "Extremely niche domain (Financial Crime) - may limit future mobility",
+        "No salary listed",
+        "No Easy Apply",
+        "SymphonyAI is specialized vendor - less known than LSEG/banks",
+        "15+ years requirement may be overqualified or very competitive",
+        "Regulatory compliance heavy - may be bureaucratic",
+        "Chief Architect may mean less hands-on technical work",
+        "Domain expertise in FinCrime may be required (steep learning curve)"
+      ],
+      "recommendation": "LOW PRIORITY - Very specialized role. Only apply if interested in FinCrime/AML domain and have relevant background. High seniority but niche limits appeal."
+    },
+    {
+      "final_rank": 15,
+      "jobId": "4305767198",
+      "title": "Principal AI Infrastructure Architect",
+      "company": "World Wide Technology",
+      "location": "London Area, United Kingdom (On-site)",
+      "total_score": 45,
+      "breakdown": {
+        "skill_match": 10,
+        "seniority_level": 18,
+        "company_quality": 12,
+        "role_attractiveness": 5
+      },
+      "url": "https://www.linkedin.com/jobs/view/4305767198/",
+      "strengths": [
+        "Principal level - senior title",
+        "10+ years requirement",
+        "Easy Apply",
+        "Work with NVIDIA, Dell, HPE - OEM partnerships",
+        "Cutting-edge AI infrastructure at scale",
+        "High-impact capital decisions"
+      ],
+      "concerns": [
+        "MAJOR MISMATCH: This is PHYSICAL INFRASTRUCTURE (data center, power, cooling, MEP)",
+        "NOT software/AI architecture - hardware/facilities role",
+        "On-site with 50% travel across EU/UK/ME",
+        "Requires data center engineering background, not software",
+        "Power distribution, HVAC, construction expertise needed",
+        "Wrong career path for software architect",
+        "No software development, no coding, no ML"
+      ],
+      "recommendation": "DO NOT APPLY - Completely wrong role type. This is data center facilities engineering, not AI/ML software architecture."
+    }
+  ],
+  "top_10_recommendations": {
+    "tier_1_must_apply": [
+      {
+        "jobId": "4316957846",
+        "company": "LSEG",
+        "title": "Principal AI Architect",
+        "score": 92,
+        "rationale": "Perfect balance of technical depth, strategic scope, and company prestige. Hands-on with LLMs, RAG, MLOps at top financial institution."
+      },
+      {
+        "jobId": "4318397092",
+        "company": "Google",
+        "title": "Field Solutions Architect, GenAI",
+        "score": 90,
+        "rationale": "FAANG brand premium, cutting-edge GenAI with Vertex AI. Trade-off is on-site requirement."
+      },
+      {
+        "jobId": "4314034147",
+        "company": "Revoco",
+        "title": "AI Solutions Architect",
+        "score": 89,
+        "rationale": "Highest salary (£130K), perfect technical match for GenAI/LLMs/RAG. Company risk offset by compensation."
+      }
+    ],
+    "tier_2_strong_candidates": [
+      {
+        "jobId": "4295424486",
+        "company": "AWS",
+        "title": "Senior Data & AI Architect",
+        "score": 87,
+        "rationale": "AWS brand and enterprise exposure. 50% travel may be dealbreaker."
+      },
+      {
+        "jobId": "4317871060",
+        "company": "Sky",
+        "title": "Principal Architect - Gen AI",
+        "score": 85,
+        "rationale": "Strategic leadership role at large enterprise. Good for AI strategy experience."
+      },
+      {
+        "jobId": "4304042525",
+        "company": "Avanade",
+        "title": "Data & AI Architect",
+        "score": 82,
+        "rationale": "Microsoft ecosystem expertise, consulting diversity. Client-facing with Fabric/Databricks."
+      },
+      {
+        "jobId": "4331305651",
+        "company": "causaLens",
+        "title": "Lead AI Solutions Engineer",
+        "score": 80,
+        "rationale": "Agentic AI focus at scale-up with impressive clients. Easy Apply."
+      }
+    ],
+    "tier_3_consider": [
+      {
+        "jobId": "4266646260",
+        "company": "Credera",
+        "title": "Principal Data Platform Architect",
+        "score": 78,
+        "rationale": "Salary transparency (£95K-£113K). Data + AI hybrid consulting role."
+      },
+      {
+        "jobId": "4314042266",
+        "company": "Capgemini",
+        "title": "GenAI Solution Architect",
+        "score": 77,
+        "rationale": "Pure GenAI focus but on-site only. Easy Apply, actively reviewing."
+      },
+      {
+        "jobId": "4320631153",
+        "company": "TCS",
+        "title": "Enterprise Architect, Agentic AI",
+        "score": 75,
+        "rationale": "Agentic AI specialization. Company concerns but good technical match."
+      }
+    ]
+  },
+  "application_strategy": {
+    "immediate_action": [
+      "LSEG Principal AI Architect - Top choice",
+      "Google GenAI Solutions Architect - FAANG opportunity",
+      "Revoco AI Solutions Architect - Highest salary"
+    ],
+    "week_1": [
+      "AWS Senior Data & AI Architect",
+      "Sky Principal Architect",
+      "Avanade Data & AI Architect",
+      "causaLens Lead AI Solutions Engineer"
+    ],
+    "week_2_if_needed": [
+      "Credera Principal Data Platform Architect",
+      "Capgemini GenAI Solution Architect",
+      "TCS Enterprise Architect Agentic AI"
+    ],
+    "skip": [
+      "World Wide Technology - WRONG ROLE TYPE (physical infrastructure)",
+      "SymphonyAI Chief Architect - Too niche (FinCrime only)",
+      "Digital Futures - Too junior (4+ years)",
+      "OpenTeams - Small company, pre-sales heavy",
+      "Version 1 - Pre-sales focused"
+    ]
+  }
+}

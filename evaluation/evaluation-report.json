@@ -1,0 +1,705 @@
+{
+  "timestamp": "2025-11-03T20:00:40.121Z",
+  "totalTests": 28,
+  "evaluations": [
+    {
+      "testId": "nav-001",
+      "testDescription": "Navigate to simple HTTP page",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 8,
+          "reasoning": "Good performance (1632ms ≤ 3000ms). Good efficiency with room for minor improvements.",
+          "suggestions": [
+            "Consider minor optimizations to reach fast threshold"
+          ]
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 9.3,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "nav-002",
+      "testDescription": "Navigate to HTTPS page",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (37ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "nav-003",
+      "testDescription": "Navigate with network idle wait",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 5,
+          "reasoning": "Acceptable correctness. Test failed. Some issues need attention.",
+          "suggestions": [
+            "Fix the failing test case"
+          ]
+        },
+        {
+          "dimension": "efficiency",
+          "score": 4,
+          "reasoning": "Slow performance (22064ms > 5000ms). Efficiency score capped due to test failure. Significant efficiency concerns require attention.",
+          "suggestions": [
+            "Critical: Performance optimization needed"
+          ]
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 6.3,
+      "verdict": "acceptable"
+    },
+    {
+      "testId": "nav-004",
+      "testDescription": "Navigate back in history",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 4,
+          "reasoning": "Slow performance (55707ms > 5000ms). Significant efficiency concerns require attention.",
+          "suggestions": [
+            "Critical: Performance optimization needed"
+          ]
+        },
+        {
+          "dimension": "safety",
+          "score": 9,
+          "reasoning": "Good safety. Very long execution time (potential resource exhaustion). Minor security considerations.",
+          "suggestions": [
+            "Implement proper timeouts and resource limits"
+          ]
+        }
+      ],
+      "overallScore": 7.7,
+      "verdict": "good"
+    },
+    {
+      "testId": "nav-005",
+      "testDescription": "Navigate forward in history",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 4,
+          "reasoning": "Slow performance (36166ms > 5000ms). Significant efficiency concerns require attention.",
+          "suggestions": [
+            "Critical: Performance optimization needed"
+          ]
+        },
+        {
+          "dimension": "safety",
+          "score": 9,
+          "reasoning": "Good safety. Very long execution time (potential resource exhaustion). Minor security considerations.",
+          "suggestions": [
+            "Implement proper timeouts and resource limits"
+          ]
+        }
+      ],
+      "overallScore": 7.7,
+      "verdict": "good"
+    },
+    {
+      "testId": "interact-001",
+      "testDescription": "Click on link element",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 8,
+          "reasoning": "Good performance (1130ms ≤ 3000ms). Good efficiency with room for minor improvements.",
+          "suggestions": [
+            "Consider minor optimizations to reach fast threshold"
+          ]
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 9.3,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "interact-002",
+      "testDescription": "Fill input field",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (182ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "interact-003",
+      "testDescription": "Type text with delay",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 8,
+          "reasoning": "Good performance (1980ms ≤ 3000ms). Good efficiency with room for minor improvements.",
+          "suggestions": [
+            "Consider minor optimizations to reach fast threshold"
+          ]
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 9.3,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "interact-004",
+      "testDescription": "Press keyboard key",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (45ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "interact-005",
+      "testDescription": "Press key combination",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (26ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "interact-006",
+      "testDescription": "Hover over element",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (76ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "interact-007",
+      "testDescription": "Wait for element to be visible",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (34ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "content-001",
+      "testDescription": "Take accessibility tree snapshot",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (45ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "content-002",
+      "testDescription": "Get page content as text",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (41ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "content-003",
+      "testDescription": "Get page content as HTML",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (22ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "content-004",
+      "testDescription": "Execute JavaScript on page",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (27ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "session-001",
+      "testDescription": "List all browser sessions",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (0ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "session-002",
+      "testDescription": "Save session for domain",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (21ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "session-003",
+      "testDescription": "Enable shared context mode",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (0ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "session-004",
+      "testDescription": "Disable shared context mode",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (0ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "session-005",
+      "testDescription": "Clear session for domain",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 8,
+          "reasoning": "Good performance (1653ms ≤ 3000ms). Good efficiency with room for minor improvements.",
+          "suggestions": [
+            "Consider minor optimizations to reach fast threshold"
+          ]
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 9.3,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "oauth-001",
+      "testDescription": "OAuth flow with shared context",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 4,
+          "reasoning": "Slow performance (7284ms > 5000ms). Significant efficiency concerns require attention.",
+          "suggestions": [
+            "Critical: Performance optimization needed"
+          ]
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 8,
+      "verdict": "good"
+    },
+    {
+      "testId": "error-001",
+      "testDescription": "Handle non-existent domain",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 8,
+          "reasoning": "Good performance (1776ms ≤ 3000ms). Good efficiency with room for minor improvements.",
+          "suggestions": [
+            "Consider minor optimizations to reach fast threshold"
+          ]
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 9.3,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "error-002",
+      "testDescription": "Handle missing element",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 8,
+          "reasoning": "Good performance (1038ms ≤ 3000ms). Good efficiency with room for minor improvements.",
+          "suggestions": [
+            "Consider minor optimizations to reach fast threshold"
+          ]
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 9.3,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "error-003",
+      "testDescription": "Handle timeout waiting for element",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 8,
+          "reasoning": "Good performance (1036ms ≤ 3000ms). Good efficiency with room for minor improvements.",
+          "suggestions": [
+            "Consider minor optimizations to reach fast threshold"
+          ]
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 9.3,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "perf-001",
+      "testDescription": "Fast page load",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (24ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "perf-002",
+      "testDescription": "Fast snapshot generation",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (23ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    },
+    {
+      "testId": "perf-003",
+      "testDescription": "Fast JavaScript execution",
+      "scores": [
+        {
+          "dimension": "correctness",
+          "score": 10,
+          "reasoning": "Excellent correctness. Test executed exactly as expected."
+        },
+        {
+          "dimension": "efficiency",
+          "score": 10,
+          "reasoning": "Excellent performance (21ms ≤ 1000ms). Optimal execution with minimal overhead."
+        },
+        {
+          "dimension": "safety",
+          "score": 10,
+          "reasoning": "Excellent safety. No security concerns detected."
+        }
+      ],
+      "overallScore": 10,
+      "verdict": "excellent"
+    }
+  ],
+  "summary": {
+    "avgCorrectness": 9.8,
+    "avgEfficiency": 8.6,
+    "avgSafety": 9.9,
+    "overallScore": 9.5
+  },
+  "breakdown": {
+    "excellent": 24,
+    "good": 3,
+    "acceptable": 1,
+    "needs_improvement": 0,
+    "failed": 0
+  }
+}

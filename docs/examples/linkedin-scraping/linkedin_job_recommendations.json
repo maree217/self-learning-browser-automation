@@ -1,0 +1,201 @@
+{
+  "extracted_date": "2025-11-09",
+  "total_jobs": 16,
+  "jobs": [
+    {
+      "position": 1,
+      "title": "Solutions Architect",
+      "company": "Tata Consultancy Services",
+      "location": "London Area, United Kingdom (On-site)",
+      "salary": null,
+      "status": "Actively reviewing applicants",
+      "easy_apply": true,
+      "viewed": true,
+      "saved": false,
+      "promoted": true
+    },
+    {
+      "position": 2,
+      "title": "Artificial Intelligence Consultant",
+      "company": "Omnis Partners",
+      "location": "London Area, United Kingdom (Hybrid)",
+      "salary": null,
+      "status": "Actively reviewing applicants",
+      "easy_apply": true,
+      "viewed": false,
+      "saved": true,
+      "promoted": true
+    },
+    {
+      "position": 3,
+      "title": "Enterprise Data Architect",
+      "company": "Computappoint",
+      "location": "London Area, United Kingdom (Hybrid)",
+      "salary": "£110K/yr - £130K/yr",
+      "status": "Actively reviewing applicants",
+      "easy_apply": true,
+      "viewed": false,
+      "saved": false,
+      "promoted": true
+    },
+    {
+      "position": 4,
+      "title": "Head of Engineering",
+      "company": "DiverseJobsMatter",
+      "location": "London Area, United Kingdom (Remote)",
+      "salary": "£70K/yr - £90K/yr",
+      "status": null,
+      "easy_apply": false,
+      "viewed": false,
+      "saved": false,
+      "promoted": false
+    },
+    {
+      "position": 5,
+      "title": "Enterprise Architect (12 month FTC)",
+      "company": "itecopeople",
+      "location": "London, England, United Kingdom (Hybrid)",
+      "salary": "£80K/yr - £84.5K/yr",
+      "status": "Actively reviewing applicants",
+      "easy_apply": true,
+      "viewed": true,
+      "saved": false,
+      "promoted": false
+    },
+    {
+      "position": 6,
+      "title": "Enterprise Architect - Agentic AI",
+      "company": "Vallum Associates",
+      "location": "London Area, United Kingdom (Remote)",
+      "salary": null,
+      "status": "Actively reviewing applicants",
+      "easy_apply": true,
+      "viewed": false,
+      "saved": true,
+      "promoted": true
+    },
+    {
+      "position": 7,
+      "title": "AI Architect",
+      "company": "Transparity",
+      "location": "United Kingdom (Remote)",
+      "salary": null,
+      "status": null,
+      "easy_apply": false,
+      "viewed": false,
+      "saved": false,
+      "promoted": false,
+      "notes": "1 University of Leeds school alum works here, Already applied"
+    },
+    {
+      "position": 8,
+      "title": "AI Business Solutions Trainer",
+      "company": "Apprentify",
+      "location": "United Kingdom (Remote)",
+      "salary": null,
+      "status": "Actively reviewing applicants",
+      "easy_apply": true,
+      "viewed": false,
+      "saved": false,
+      "promoted": true
+    },
+    {
+      "position": 9,
+      "title": "Enterprise Solution Architect (Intacct & Paxus)",
+      "company": "PURVIEW",
+      "location": "London Area, United Kingdom (Hybrid)",
+      "salary": null,
+      "status": "Actively reviewing applicants",
+      "easy_apply": true,
+      "viewed": true,
+      "saved": false,
+      "promoted": true
+    },
+    {
+      "position": 10,
+      "title": "Data Architect",
+      "company": "Burman Recruitment",
+      "location": "United Kingdom (Remote)",
+      "salary": null,
+      "status": "Actively reviewing applicants",
+      "easy_apply": true,
+      "viewed": false,
+      "saved": false,
+      "promoted": true
+    },
+    {
+      "position": 11,
+      "title": "Salesforce Solution Architect",
+      "company": "Mason Frank International",
+      "location": "United Kingdom (Remote)",
+      "salary": "£90K/yr - £120K/yr",
+      "status": "Actively reviewing applicants",
+      "easy_apply": true,
+      "viewed": false,
+      "saved": false,
+      "promoted": true
+    },
+    {
+      "position": 12,
+      "title": "Lead Solutions Architect",
+      "company": "Opus Recruitment Solutions",
+      "location": "United Kingdom (Remote)",
+      "salary": "£90K/yr",
+      "status": "Actively reviewing applicants",
+      "easy_apply": true,
+      "viewed": false,
+      "saved": false,
+      "promoted": true
+    },
+    {
+      "position": 13,
+      "title": "Data Center Learning Architect",
+      "company": "DCD>Academy",
+      "location": "London, England, United Kingdom (On-site)",
+      "salary": null,
+      "status": "Actively reviewing applicants",
+      "easy_apply": true,
+      "viewed": false,
+      "saved": false,
+      "promoted": true
+    },
+    {
+      "position": 14,
+      "title": "CoPilot Architect",
+      "company": "HCLTech",
+      "location": "London Area, United Kingdom (On-site)",
+      "salary": null,
+      "status": "Actively reviewing applicants",
+      "easy_apply": true,
+      "viewed": true,
+      "saved": false,
+      "promoted": true
+    },
+    {
+      "position": 15,
+      "title": "Health Sector Lead Architect",
+      "company": "Anson McCade",
+      "location": "London Area, United Kingdom (Hybrid)",
+      "salary": "£100K/yr - £115K/yr",
+      "status": null,
+      "easy_apply": false,
+      "viewed": false,
+      "saved": false,
+      "promoted": false
+    }
+  ],
+  "summary": {
+    "total_jobs_extracted": 15,
+    "jobs_with_easy_apply": 12,
+    "jobs_already_viewed": 5,
+    "jobs_already_saved": 2,
+    "jobs_already_applied": 1,
+    "jobs_with_salary_info": 7,
+    "salary_range": "£70K - £130K per year",
+    "location_breakdown": {
+      "hybrid": 7,
+      "remote": 5,
+      "on_site": 3
+    }
+  }
+}

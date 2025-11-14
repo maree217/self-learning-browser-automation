@@ -1,0 +1,139 @@
+{
+  "test": "E2E Test 2: Connection Requests",
+  "timestamp": "2025-11-02T18:00:00Z",
+  "search_query": "AI Solutions Architect",
+  "total_requests_sent": 10,
+  "connection_requests": [
+    {
+      "id": 1,
+      "name": "Marcin Ciszak",
+      "title": "AI, Data & Cloud | Applied AI Solutions Architect",
+      "company": "Appvia",
+      "location": "London, England, United Kingdom",
+      "connection_level": "2nd",
+      "mutual_connections": ["Robert Johnson"],
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Ainhoa Llorente Coto",
+      "title": "Director, Data & AI, Solutions Architect",
+      "company": "Avanade",
+      "location": "London, England, United Kingdom",
+      "connection_level": "2nd",
+      "mutual_connections": ["Joseph Vino Jerry", "Dr Roushanak Rahmat", "3 others"],
+      "status": "Pending"
+    },
+    {
+      "id": 3,
+      "name": "Awais Butt",
+      "title": "AI, Cloud and Data Solutions Architect | Technical Sales and PreSales",
+      "company": "Freelance",
+      "location": "London, England, United Kingdom",
+      "connection_level": "2nd",
+      "mutual_connections": ["Imran Ali Rathore", "Jamie Lancaster"],
+      "status": "Pending"
+    },
+    {
+      "id": 4,
+      "name": "Ravi Shreeram Reddy",
+      "title": "IT Technical Architect",
+      "company": "Ai Dizital Solutions Ltd",
+      "location": "Slough, England, United Kingdom",
+      "connection_level": "2nd",
+      "mutual_connections": ["Irini Poyiatzi"],
+      "specialty": "Leading design and implementation of cutting-edge AI projects, architecting scalable AI-powered systems",
+      "status": "Pending"
+    },
+    {
+      "id": 5,
+      "name": "Surya Kambala",
+      "title": "Automation Architect | AI & Cloud Solutions",
+      "company": "Orbis Protect",
+      "location": "Basingstoke, England, United Kingdom",
+      "connection_level": "2nd",
+      "mutual_connections": ["Michael Cranswick", "Joshua Smith", "4 others"],
+      "specialty": "Python & AI-Driven Solutions",
+      "status": "Pending"
+    },
+    {
+      "id": 6,
+      "name": "Inés Lantero Oraa",
+      "title": "Data & AI Cloud Solutions Architect",
+      "company": "Microsoft",
+      "location": "United Kingdom",
+      "connection_level": "2nd",
+      "mutual_connections": ["Karl D'Souza"],
+      "status": "Pending"
+    },
+    {
+      "id": 7,
+      "name": "Craig Rivers",
+      "title": "Pre & Post Sales Solutions Architect",
+      "company": "Orbital",
+      "location": "London, England, United Kingdom",
+      "connection_level": "2nd",
+      "mutual_connections": ["Kim Dunton", "Michael Amire", "1 other"],
+      "specialty": "Legal Tech | Gen AI",
+      "status": "Pending"
+    },
+    {
+      "id": 8,
+      "name": "Thomas Poulsen",
+      "title": "Director | Solutions Architect",
+      "company": "Solarpunk AI Ltd",
+      "location": "London, England, United Kingdom",
+      "connection_level": "2nd",
+      "mutual_connections": ["Graham Turnbull", "Sue Whalley"],
+      "specialty": "Founding Partner at The Storytellers Collective | Software Engineering Consultant",
+      "status": "Pending"
+    },
+    {
+      "id": 9,
+      "name": "Colin Appiah MEng MIET",
+      "title": "AI Solutions Architect",
+      "company": "ThompsonMoore Group",
+      "location": "United Kingdom",
+      "connection_level": "2nd",
+      "mutual_connections": ["Mark Jones"],
+      "status": "Pending"
+    },
+    {
+      "id": 10,
+      "name": "Anirban Lahiri",
+      "title": "Architect of Tomorrow's Data & AI Solutions",
+      "company": "Kainos",
+      "location": "Greater Cambridge Area",
+      "connection_level": "2nd",
+      "mutual_connections": ["Yiannis Gekas, MBA, MSc", "Katia Bassan"],
+      "specialty": "Data Technical Architect / Consultant",
+      "status": "Pending"
+    }
+  ],
+  "summary": {
+    "total_sent": 10,
+    "connection_levels": {
+      "2nd_degree": 10,
+      "3rd_degree": 0
+    },
+    "locations": {
+      "London_UK": 6,
+      "Other_UK": 4
+    },
+    "company_types": {
+      "Big_Tech": 1,
+      "Consulting": 5,
+      "Startups": 2,
+      "Freelance": 1,
+      "Other": 1
+    }
+  },
+  "notes": [
+    "All connection requests were sent without personalized messages from the search results page",
+    "LinkedIn automatically sends requests immediately when clicking 'Invite to connect' from search",
+    "To add personalized messages, would need to visit individual profiles and use 'Add a note' option",
+    "All profiles are AI/Data Solutions Architects with relevant experience",
+    "Rate limiting applied: 3 seconds between each request to avoid triggering LinkedIn's anti-spam measures",
+    "All targets are 2nd degree connections with mutual connections, increasing acceptance likelihood"
+  ]
+}

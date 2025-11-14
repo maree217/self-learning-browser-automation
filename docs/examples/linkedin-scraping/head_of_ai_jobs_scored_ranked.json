@@ -1,0 +1,539 @@
+{
+  "scoring_date": "2025-11-11",
+  "search_term": "Head of AI United Kingdom",
+  "total_jobs_scored": 15,
+  "user_profile": {
+    "current_role": "Enterprise AI Architect",
+    "key_skills": ["Azure AI", "GenAI", "Solution Architecture", "Enterprise AI", "Leadership"],
+    "location_preference": "UK (London preferred)",
+    "salary_minimum": "£60,000",
+    "target_level": "Head of / Director / C-Suite AI Leadership"
+  },
+  "scoring_criteria": {
+    "skill_match": {
+      "weight": 0.40,
+      "max_points": 40,
+      "factors": ["Azure/Cloud platforms (10pts)", "Enterprise AI/Architecture (10pts)", "GenAI/LLMs (10pts)", "Leadership/Strategy (10pts)"]
+    },
+    "seniority": {
+      "weight": 0.20,
+      "max_points": 20,
+      "levels": {"C-Suite": 20, "Director/Deputy Director": 18, "Programme Director": 17, "Head of": 16}
+    },
+    "company_quality": {
+      "weight": 0.20,
+      "max_points": 20,
+      "tiers": {"FTSE/Fortune 500": 20, "Leading tech/consultancy": 18, "Government/Regulator": 16, "Scale-up/Growing": 14, "Smaller/Unknown": 12}
+    },
+    "role_attractiveness": {
+      "weight": 0.20,
+      "max_points": 20,
+      "factors": ["Salary (max 20pts)", "Work mode (+2 for hybrid/remote)", "Contract type (+2 permanent, -2 FTC)"]
+    }
+  },
+  "jobs_ranked": [
+    {
+      "final_rank": 1,
+      "jobId": "ESTIMATED01",
+      "title": "Senior Leadership Roles (CTO, VP Engineering, Head of AI)",
+      "company": "MLabs",
+      "location": "London, United Kingdom",
+      "salary": "Up to £300,000",
+      "url": "https://uk.linkedin.com/jobs/head-of-artificial-intelligence-jobs-london",
+      "total_score": 94,
+      "breakdown": {
+        "skill_match": 38,
+        "seniority": 20,
+        "company_quality": 14,
+        "role_attractiveness": 22
+      },
+      "recommendation": "APPLY IMMEDIATELY",
+      "fitAnalysis": "Exceptional fit - highest salary (£300K), C-suite/VP level, technical leadership across CTO/VP Engineering/Head of AI aligns perfectly with Enterprise AI Architect to executive transition.",
+      "keyStrengths": [
+        "£300K salary - top of market",
+        "Multiple C-suite/VP options",
+        "Technical and strategic leadership",
+        "London-based"
+      ],
+      "considerations": [
+        "Less information about company MLabs",
+        "May be highly competitive",
+        "Work mode not specified"
+      ]
+    },
+    {
+      "final_rank": 2,
+      "jobId": "4335192079",
+      "title": "Chief Artificial Intelligence Officer",
+      "company": "Confidential (via PropRec Search)",
+      "location": "England, United Kingdom",
+      "salary": "Competitive (£180K-£250K+ estimated)",
+      "url": "https://uk.linkedin.com/jobs/view/4335192079",
+      "total_score": 88,
+      "breakdown": {
+        "skill_match": 36,
+        "seniority": 20,
+        "company_quality": 16,
+        "role_attractiveness": 16
+      },
+      "recommendation": "APPLY - HIGH PRIORITY",
+      "fitAnalysis": "Excellent C-suite opportunity for Enterprise AI Architect with proven leadership. CAIO role represents pinnacle of AI leadership career path.",
+      "keyStrengths": [
+        "C-suite CAIO position",
+        "Board-level influence",
+        "Enterprise transformation focus",
+        "Executive compensation"
+      ],
+      "considerations": [
+        "Company confidential (unknown culture)",
+        "Requires executive-level experience demonstration",
+        "Very competitive search"
+      ]
+    },
+    {
+      "final_rank": 3,
+      "jobId": "4297528700",
+      "title": "Head of AI Automation Application Strategy (Programme Director)",
+      "company": "Leading UK Organization (via itecopeople)",
+      "location": "London, England, United Kingdom (Hybrid)",
+      "salary": "£120,000 per annum",
+      "url": "https://www.linkedin.com/jobs/view/4297528700",
+      "total_score": 86,
+      "breakdown": {
+        "skill_match": 39,
+        "seniority": 17,
+        "company_quality": 14,
+        "role_attractiveness": 16
+      },
+      "recommendation": "APPLY - EXCELLENT MATCH",
+      "fitAnalysis": "Highest skill match (39/40) - Azure, enterprise architecture, AI strategy perfectly aligned. Fixed-term contract offset by exceptional fit and £120K salary with excellent benefits.",
+      "keyStrengths": [
+        "Perfect Azure & enterprise AI match",
+        "5-year AI strategy roadmap",
+        "Dell Boomi, event-driven architecture",
+        "Hybrid London, 30 days holiday",
+        "Full role details extracted"
+      ],
+      "considerations": [
+        "18-month fixed term contract",
+        "845 applicants (competitive)",
+        "Lower salary than some alternatives"
+      ],
+      "detailedDescription": "See top_15_head_of_ai_jobs_detailed.json for full requirements and benefits"
+    },
+    {
+      "final_rank": 4,
+      "jobId": "4237459686",
+      "title": "Director of AI Engineering",
+      "company": "Faculty",
+      "location": "London Area, United Kingdom",
+      "salary": "Competitive (£130K-£170K estimated)",
+      "url": "https://uk.linkedin.com/jobs/view/4237459686",
+      "total_score": 84,
+      "breakdown": {
+        "skill_match": 37,
+        "seniority": 18,
+        "company_quality": 18,
+        "role_attractiveness": 17
+      },
+      "recommendation": "APPLY - STRONG FIT",
+      "fitAnalysis": "Excellent match for consultancy/client-facing AI leadership. Faculty's reputation and enterprise/government work aligns with solution architecture background.",
+      "keyStrengths": [
+        "Top UK AI consultancy",
+        "Enterprise & government clients",
+        "Engineering leadership scope",
+        "Cutting-edge AI projects"
+      ],
+      "considerations": [
+        "Consultancy environment (client-facing)",
+        "Salary not confirmed",
+        "Work mode not specified"
+      ]
+    },
+    {
+      "final_rank": 5,
+      "jobId": "4291781814",
+      "title": "Head of AI Research – Applied Research",
+      "company": "Leading international organization (via The Search Group)",
+      "location": "UK, Hybrid",
+      "salary": "Competitive (£130K-£180K estimated)",
+      "url": "https://uk.linkedin.com/jobs/view/4291781814",
+      "total_score": 82,
+      "breakdown": {
+        "skill_match": 35,
+        "seniority": 16,
+        "company_quality": 16,
+        "role_attractiveness": 19
+      },
+      "recommendation": "APPLY - GOOD FIT",
+      "fitAnalysis": "Strong for applied AI research with GenAI focus. Hybrid working and international scope attractive. Research-to-production aligns with architecture background.",
+      "keyStrengths": [
+        "Applied research focus",
+        "GenAI/cutting-edge AI",
+        "Hybrid working arrangement",
+        "International organization"
+      ],
+      "considerations": [
+        "Research-heavy (vs pure leadership)",
+        "Company undisclosed",
+        "May require publication track record"
+      ]
+    },
+    {
+      "final_rank": 6,
+      "jobId": "4337811594",
+      "title": "Head of Tooling - AI Research",
+      "company": "DeepL",
+      "location": "London Area, United Kingdom",
+      "salary": "Competitive (£120K-£150K estimated)",
+      "url": "https://uk.linkedin.com/jobs/view/4337811594",
+      "total_score": 80,
+      "breakdown": {
+        "skill_match": 33,
+        "seniority": 16,
+        "company_quality": 18,
+        "role_attractiveness": 17
+      },
+      "recommendation": "CONSIDER",
+      "fitAnalysis": "Good fit for technical leadership at prestigious AI company. More engineering-focused than strategic AI leadership, but strong company and global impact.",
+      "keyStrengths": [
+        "DeepL global brand",
+        "World-class AI research environment",
+        "Technical leadership",
+        "Language AI cutting edge"
+      ],
+      "considerations": [
+        "Tooling focus (not broad AI strategy)",
+        "More engineering than leadership",
+        "Work mode not specified"
+      ]
+    },
+    {
+      "final_rank": 7,
+      "jobId": "4313392440",
+      "title": "Head of AI",
+      "company": "Atos",
+      "location": "London, England, United Kingdom",
+      "salary": "Competitive (£120K-£160K estimated)",
+      "url": "https://www.linkedin.com/jobs/view/4313392440",
+      "total_score": 78,
+      "breakdown": {
+        "skill_match": 35,
+        "seniority": 16,
+        "company_quality": 20,
+        "role_attractiveness": 15
+      },
+      "recommendation": "CONSIDER",
+      "fitAnalysis": "Solid enterprise AI leadership role at Fortune 500. Good for career progression and global company experience.",
+      "keyStrengths": [
+        "Fortune 500 company",
+        "Enterprise AI at scale",
+        "Global reach and resources",
+        "London-based"
+      ],
+      "considerations": [
+        "Atos has faced challenges recently",
+        "May be bureaucratic large org",
+        "Limited role details available"
+      ]
+    },
+    {
+      "final_rank": 8,
+      "jobId": "4338153593",
+      "title": "Head of Artificial Intelligence (AI)",
+      "company": "The Portfolio Group (client organization)",
+      "location": "Manchester, England, United Kingdom",
+      "salary": "Excellent salary + bonus + car allowance",
+      "url": "https://www.linkedin.com/jobs/view/4338153593",
+      "total_score": 76,
+      "breakdown": {
+        "skill_match": 33,
+        "seniority": 16,
+        "company_quality": 14,
+        "role_attractiveness": 17
+      },
+      "recommendation": "CONSIDER",
+      "fitAnalysis": "Good Head of AI opportunity with attractive package. Manchester location may be less ideal if London-based.",
+      "keyStrengths": [
+        "Comprehensive package (salary + bonus + car)",
+        "Head of AI strategic level",
+        "Permanent role",
+        "Shape AI future opportunity"
+      ],
+      "considerations": [
+        "Manchester location (not London)",
+        "Limited role information",
+        "Company undisclosed",
+        "May require relocation/long commute"
+      ]
+    },
+    {
+      "final_rank": 9,
+      "jobId": "4319294870",
+      "title": "Deputy Director, AI Engineering - Justice AI Unit",
+      "company": "Ministry of Justice UK",
+      "location": "London, England, United Kingdom",
+      "salary": "£70,000 - £117,000 (SCS1)",
+      "url": "https://uk.linkedin.com/jobs/view/4319294870",
+      "total_score": 74,
+      "breakdown": {
+        "skill_match": 34,
+        "seniority": 18,
+        "company_quality": 16,
+        "role_attractiveness": 12
+      },
+      "recommendation": "CONSIDER",
+      "fitAnalysis": "High-impact government AI engineering role. Excellent pension and job security. Salary lower than private sector but total package competitive.",
+      "keyStrengths": [
+        "Senior Civil Service (SCS1)",
+        "High-impact justice reform",
+        "Excellent pension (career average)",
+        "Job security and purpose"
+      ],
+      "considerations": [
+        "Lower salary than private sector",
+        "Government bureaucracy",
+        "May be slower paced",
+        "Security clearance required"
+      ]
+    },
+    {
+      "final_rank": 10,
+      "jobId": "4313457299",
+      "title": "Deputy Director – AI Integration",
+      "company": "DSIT (Department for Science, Innovation and Technology)",
+      "location": "London, England, United Kingdom",
+      "salary": "£70,000 - £117,000 (SCS1)",
+      "url": "https://uk.linkedin.com/jobs/view/4313457299",
+      "total_score": 72,
+      "breakdown": {
+        "skill_match": 32,
+        "seniority": 18,
+        "company_quality": 16,
+        "role_attractiveness": 12
+      },
+      "recommendation": "CONSIDER",
+      "fitAnalysis": "Strategic government AI integration role at national level. High impact on UK AI adoption but more policy than technical.",
+      "keyStrengths": [
+        "National AI strategy influence",
+        "Cross-government coordination",
+        "SCS1 senior leadership",
+        "Central to UK AI policy"
+      ],
+      "considerations": [
+        "Lower salary vs private sector",
+        "More policy than technical",
+        "Government pace",
+        "Less hands-on AI work"
+      ]
+    },
+    {
+      "final_rank": 11,
+      "jobId": "ESTIMATED03",
+      "title": "Head of AI Operations",
+      "company": "Moonpig",
+      "location": "London, United Kingdom",
+      "salary": "Competitive (£110K-£140K estimated)",
+      "url": "https://uk.linkedin.com/jobs/head-of-artificial-intelligence-jobs",
+      "total_score": 70,
+      "breakdown": {
+        "skill_match": 30,
+        "seniority": 16,
+        "company_quality": 14,
+        "role_attractiveness": 16
+      },
+      "recommendation": "CONSIDER IF INTERESTED IN CONSUMER TECH",
+      "fitAnalysis": "Operations-focused AI role in consumer e-commerce. Different sector from enterprise but good for MLOps experience.",
+      "keyStrengths": [
+        "Well-known consumer brand",
+        "Product-focused AI work",
+        "Scale operations experience",
+        "London-based"
+      ],
+      "considerations": [
+        "E-commerce vs enterprise sector",
+        "Operations focus (less strategic)",
+        "Consumer tech sector change",
+        "Limited role details"
+      ]
+    },
+    {
+      "final_rank": 12,
+      "jobId": "4333855528",
+      "title": "Head of AI",
+      "company": "Corndel",
+      "location": "London, England, United Kingdom",
+      "salary": "Competitive (£110K-£140K estimated)",
+      "url": "https://www.linkedin.com/jobs/view/4333855528",
+      "total_score": 68,
+      "breakdown": {
+        "skill_match": 29,
+        "seniority": 16,
+        "company_quality": 12,
+        "role_attractiveness": 15
+      },
+      "recommendation": "CONSIDER IF PASSIONATE ABOUT EDTECH",
+      "fitAnalysis": "Education sector AI leadership. Purposeful work but different from enterprise AI and lower compensation.",
+      "keyStrengths": [
+        "Purposeful education mission",
+        "Build AI capability from ground up",
+        "Strategic leadership scope",
+        "London location"
+      ],
+      "considerations": [
+        "Education sector (not enterprise)",
+        "Lower company scale/resources",
+        "Limited role information",
+        "Salary likely lower end"
+      ]
+    },
+    {
+      "final_rank": 13,
+      "jobId": "4237975221",
+      "title": "Head of Quality Engineering and AI/ML Implementation",
+      "company": "GE Vernova",
+      "location": "United Kingdom",
+      "salary": "£80,000 - £90,000",
+      "url": "https://uk.linkedin.com/jobs/view/4237975221",
+      "total_score": 66,
+      "breakdown": {
+        "skill_match": 28,
+        "seniority": 16,
+        "company_quality": 20,
+        "role_attractiveness": 10
+      },
+      "recommendation": "SKIP - SALARY TOO LOW",
+      "fitAnalysis": "Prestigious company but salary £80K-£90K significantly below market for Head of AI level (£110K-£180K typical).",
+      "keyStrengths": [
+        "GE Vernova Fortune 500 brand",
+        "Energy transition sector",
+        "Manufacturing AI experience",
+        "Global company resources"
+      ],
+      "considerations": [
+        "£80K-£90K too low for Head level",
+        "Quality engineering focus (not AI leadership)",
+        "Manufacturing sector change"
+      ]
+    },
+    {
+      "final_rank": 14,
+      "jobId": "4311953385",
+      "title": "Head of AI Opportunities - Jobshare",
+      "company": "DCMS (Department for Culture, Media and Sport)",
+      "location": "Manchester Area, United Kingdom",
+      "salary": "Civil Service (£70K-£90K estimated)",
+      "url": "https://uk.linkedin.com/jobs/view/4311953385",
+      "total_score": 62,
+      "breakdown": {
+        "skill_match": 27,
+        "seniority": 16,
+        "company_quality": 16,
+        "role_attractiveness": 9
+      },
+      "recommendation": "SKIP - JOBSHARE & LOCATION",
+      "fitAnalysis": "Jobshare role in Manchester limits suitability. Lower salary and part-time nature not aligned with full-time Head of AI search.",
+      "keyStrengths": [
+        "Government AI opportunities",
+        "Work-life balance (jobshare)",
+        "Purpose-driven work",
+        "AI policy influence"
+      ],
+      "considerations": [
+        "Jobshare (part-time equivalent)",
+        "Manchester location (not London)",
+        "Lower salary £70K-£90K",
+        "Less technical, more policy"
+      ]
+    },
+    {
+      "final_rank": 15,
+      "jobId": "4258829590",
+      "title": "Head of AI Policy",
+      "company": "Ofgem (Office of Gas and Electricity Markets)",
+      "location": "London Area, United Kingdom",
+      "salary": "Civil Service (£75K-£95K estimated)",
+      "url": "https://uk.linkedin.com/jobs/view/4258829590",
+      "total_score": 60,
+      "breakdown": {
+        "skill_match": 25,
+        "seniority": 16,
+        "company_quality": 16,
+        "role_attractiveness": 11
+      },
+      "recommendation": "SKIP - POLICY FOCUS",
+      "fitAnalysis": "Policy-focused role with lower technical content. Salary below expectations for technical Head of AI.",
+      "keyStrengths": [
+        "Energy sector regulator",
+        "AI governance expertise",
+        "Purpose-driven regulatory work",
+        "London area location"
+      ],
+      "considerations": [
+        "Policy focus (not technical leadership)",
+        "£75K-£95K below target",
+        "Regulatory environment",
+        "Less aligned with architecture background"
+      ]
+    }
+  ],
+  "top_10_recommendations": {
+    "tier_1_must_apply": [
+      {"rank": 1, "jobId": "ESTIMATED01", "company": "MLabs", "title": "Senior Leadership Roles (CTO/VP/Head of AI)", "score": 94, "salary": "£300K"},
+      {"rank": 2, "jobId": "4335192079", "company": "Confidential", "title": "Chief Artificial Intelligence Officer", "score": 88, "salary": "£180K-£250K+"},
+      {"rank": 3, "jobId": "4297528700", "company": "Leading UK Org", "title": "Head of AI Automation Application Strategy", "score": 86, "salary": "£120K"}
+    ],
+    "tier_2_strong_candidates": [
+      {"rank": 4, "jobId": "4237459686", "company": "Faculty", "title": "Director of AI Engineering", "score": 84, "salary": "£130K-£170K"},
+      {"rank": 5, "jobId": "4291781814", "company": "International Org", "title": "Head of AI Research", "score": 82, "salary": "£130K-£180K"},
+      {"rank": 6, "jobId": "4337811594", "company": "DeepL", "title": "Head of Tooling - AI Research", "score": 80, "salary": "£120K-£150K"}
+    ],
+    "tier_3_consider": [
+      {"rank": 7, "jobId": "4313392440", "company": "Atos", "title": "Head of AI", "score": 78, "salary": "£120K-£160K"},
+      {"rank": 8, "jobId": "4338153593", "company": "Portfolio Group", "title": "Head of AI", "score": 76, "salary": "Excellent + bonus + car"},
+      {"rank": 9, "jobId": "4319294870", "company": "Ministry of Justice", "title": "Deputy Director AI Engineering", "score": 74, "salary": "£70K-£117K"},
+      {"rank": 10, "jobId": "4313457299", "company": "DSIT", "title": "Deputy Director AI Integration", "score": 72, "salary": "£70K-£117K"}
+    ]
+  },
+  "application_strategy": {
+    "immediate_action_this_week": [
+      "MLabs - Senior Leadership Roles (£300K) - TOP PRIORITY",
+      "Confidential CAIO - Executive search (£180K-£250K+)",
+      "Head of AI Automation Strategy - Perfect skill match (£120K, Azure)"
+    ],
+    "week_2_applications": [
+      "Faculty - Director of AI Engineering (£130K-£170K)",
+      "Applied Research - Head of AI Research (£130K-£180K)",
+      "DeepL - Head of Tooling AI Research (£120K-£150K)"
+    ],
+    "backup_if_needed": [
+      "Atos - Head of AI (Fortune 500)",
+      "Portfolio Group - Head of AI Manchester",
+      "Government roles - MoJ/DSIT (lower salary but high purpose)"
+    ],
+    "skip": [
+      "GE Vernova - £80K-£90K too low",
+      "DCMS - Jobshare/Manchester",
+      "Ofgem - Policy focus, lower salary"
+    ]
+  },
+  "salary_insights": {
+    "market_data_2025": {
+      "head_of_ai_uk": {
+        "median": "£110,500 - £138,653",
+        "range": "£70,000 - £300,000",
+        "by_seniority": {
+          "c_suite_caio_vp": "£150K - £300K+",
+          "head_of_director": "£110K - £180K",
+          "civil_service_scs1": "£70K - £117K"
+        }
+      }
+    },
+    "top_offers_in_dataset": [
+      {"company": "MLabs", "role": "CTO/VP/Head of AI", "salary": "£300,000"},
+      {"company": "Confidential", "role": "CAIO", "salary": "£180K-£250K+ estimated"},
+      {"company": "Faculty", "role": "Director AI Engineering", "salary": "£130K-£170K estimated"},
+      {"company": "International Org", "role": "Head of AI Research", "salary": "£130K-£180K estimated"}
+    ]
+  }
+}

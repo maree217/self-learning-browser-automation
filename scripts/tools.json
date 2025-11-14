@@ -1,0 +1,196 @@
+{
+  "version": "1.0.0",
+  "description": "Progressive disclosure tool registry for social-browser scripts",
+  "categories": {
+    "navigation": {
+      "description": "Browser navigation tools",
+      "context_cost": "~1.5KB",
+      "tools": {
+        "navigate": {
+          "script": "navigation/navigate.js",
+          "description": "Navigate to a URL with session persistence",
+          "usage": "sb navigate --url <url> [--domain <domain>]",
+          "context_cost": "~3KB",
+          "related": ["go-back", "go-forward", "snapshot"]
+        },
+        "go-back": {
+          "script": "navigation/go-back.js",
+          "description": "Navigate back in browser history",
+          "usage": "sb go-back --domain <domain>",
+          "context_cost": "~2KB",
+          "related": ["navigate", "go-forward"]
+        },
+        "go-forward": {
+          "script": "navigation/go-forward.js",
+          "description": "Navigate forward in browser history",
+          "usage": "sb go-forward --domain <domain>",
+          "context_cost": "~2KB",
+          "related": ["navigate", "go-back"]
+        }
+      }
+    },
+    "interaction": {
+      "description": "Page interaction tools (click, type, fill, etc.)",
+      "context_cost": "~2KB",
+      "tools": {
+        "click": {
+          "script": "interaction/click.js",
+          "description": "Click an element on the page",
+          "usage": "sb click --domain <domain> --selector <selector>",
+          "context_cost": "~3KB",
+          "related": ["hover", "wait-for"]
+        },
+        "type": {
+          "script": "interaction/type.js",
+          "description": "Type text into an element",
+          "usage": "sb type --domain <domain> --selector <selector> --text <text>",
+          "context_cost": "~3KB",
+          "related": ["fill", "press"]
+        },
+        "fill": {
+          "script": "interaction/fill.js",
+          "description": "Fill a form field (faster than typing)",
+          "usage": "sb fill --domain <domain> --selector <selector> --value <value>",
+          "context_cost": "~3KB",
+          "related": ["type", "select"]
+        },
+        "select": {
+          "script": "interaction/select.js",
+          "description": "Select option from dropdown",
+          "usage": "sb select --domain <domain> --selector <selector> --value <value>",
+          "context_cost": "~3KB",
+          "related": ["fill"]
+        },
+        "press": {
+          "script": "interaction/press.js",
+          "description": "Press keyboard key(s)",
+          "usage": "sb press --domain <domain> --key <key>",
+          "context_cost": "~2KB",
+          "related": ["type"]
+        },
+        "hover": {
+          "script": "interaction/hover.js",
+          "description": "Hover over an element",
+          "usage": "sb hover --domain <domain> --selector <selector>",
+          "context_cost": "~2KB",
+          "related": ["click"]
+        },
+        "wait-for": {
+          "script": "interaction/wait-for.js",
+          "description": "Wait for an element or condition",
+          "usage": "sb wait-for --domain <domain> [--selector <selector>]",
+          "context_cost": "~3KB",
+          "related": ["click", "navigate"]
+        }
+      }
+    },
+    "content": {
+      "description": "Content extraction and page analysis tools",
+      "context_cost": "~1.5KB",
+      "tools": {
+        "snapshot": {
+          "script": "content/snapshot.js",
+          "description": "Get accessibility tree snapshot (LLM-friendly)",
+          "usage": "sb snapshot --domain <domain>",
+          "context_cost": "~3KB",
+          "related": ["screenshot", "get-content"]
+        },
+        "screenshot": {
+          "script": "content/screenshot.js",
+          "description": "Take screenshot of page or element",
+          "usage": "sb screenshot --domain <domain> [--selector <selector>]",
+          "context_cost": "~3KB",
+          "related": ["snapshot"]
+        },
+        "evaluate": {
+          "script": "content/evaluate.js",
+          "description": "Execute JavaScript code on the page",
+          "usage": "sb evaluate --domain <domain> --script <code>",
+          "context_cost": "~3KB",
+          "related": ["snapshot", "get-content"]
+        },
+        "get-content": {
+          "script": "content/get-content.js",
+          "description": "Get page content as text or HTML",
+          "usage": "sb get-content --domain <domain> [--format <text|html>]",
+          "context_cost": "~2KB",
+          "related": ["snapshot", "evaluate"]
+        }
+      }
+    },
+    "tabs": {
+      "description": "Tab management tools",
+      "context_cost": "~1KB",
+      "tools": {
+        "manage-tabs": {
+          "script": "tabs/manage-tabs.js",
+          "description": "Manage tabs (list/create/close/switch)",
+          "usage": "sb manage-tabs --domain <domain> --action <list|create|close|switch>",
+          "context_cost": "~3KB",
+          "related": ["navigate"]
+        }
+      }
+    },
+    "sessions": {
+      "description": "Session management tools",
+      "context_cost": "~1.5KB",
+      "tools": {
+        "save-session": {
+          "script": "sessions/save-session.js",
+          "description": "Manually save session (auto-saves on navigation)",
+          "usage": "sb save-session --domain <domain>",
+          "context_cost": "~2KB",
+          "related": ["list-sessions", "clear-session"]
+        },
+        "list-sessions": {
+          "script": "sessions/list-sessions.js",
+          "description": "List all saved domain sessions",
+          "usage": "sb list-sessions",
+          "context_cost": "~2KB",
+          "related": ["save-session", "clear-session"]
+        },
+        "clear-session": {
+          "script": "sessions/clear-session.js",
+          "description": "Clear session for a domain (logout)",
+          "usage": "sb clear-session --domain <domain>",
+          "context_cost": "~2KB",
+          "related": ["save-session", "list-sessions"]
+        },
+        "enable-shared-context": {
+          "script": "sessions/enable-shared-context.js",
+          "description": "Enable shared context mode for OAuth flows",
+          "usage": "sb enable-shared-context",
+          "context_cost": "~2KB",
+          "related": ["disable-shared-context"]
+        },
+        "disable-shared-context": {
+          "script": "sessions/disable-shared-context.js",
+          "description": "Disable shared context mode",
+          "usage": "sb disable-shared-context",
+          "context_cost": "~2KB",
+          "related": ["enable-shared-context"]
+        }
+      }
+    },
+    "advanced": {
+      "description": "Advanced browser automation tools",
+      "context_cost": "~1KB",
+      "tools": {
+        "upload-file": {
+          "script": "advanced/upload-file.js",
+          "description": "Upload file(s) to file input",
+          "usage": "sb upload-file --domain <domain> --selector <selector> --files <paths...>",
+          "context_cost": "~3KB",
+          "related": ["fill"]
+        },
+        "handle-dialog": {
+          "script": "advanced/handle-dialog.js",
+          "description": "Handle browser dialog (alert/confirm/prompt)",
+          "usage": "sb handle-dialog --domain <domain> --action <accept|dismiss>",
+          "context_cost": "~2KB",
+          "related": []
+        }
+      }
+    }
+  }
+}

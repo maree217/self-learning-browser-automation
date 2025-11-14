@@ -1,0 +1,63 @@
+{
+  "name": "self-learning-browser-automation",
+  "version": "1.0.0",
+  "description": "Browser automation that learns from every interaction. Uses AI memory and reinforcement learning to get 27-122% better over time automatically.",
+  "main": "dist/index.js",
+  "bin": {
+    "browser-automation": "dist/index.js",
+    "slba": "dist/scripts/cli.js"
+  },
+  "scripts": {
+    "build": "tsc && cp scripts/tools.json dist/scripts/",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "scripts:summary": "node dist/scripts/cli.js summary",
+    "scripts:list": "node dist/scripts/cli.js list",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:unit": "jest tests/unit",
+    "test:integration": "jest tests/integration",
+    "test:adversarial": "jest tests/adversarial",
+    "test:e2e": "ts-node tests/e2e/run-all-e2e-tests.ts",
+    "test:e2e:job-search": "ts-node tests/e2e/01-job-search-extract.ts",
+    "test:e2e:networking": "ts-node tests/e2e/02-connection-requests.ts",
+    "test:e2e:analysis": "ts-node tests/e2e/03-profile-analysis.ts",
+    "benchmark": "ts-node tests/benchmarks/run-benchmarks.ts",
+    "evaluate": "ts-node evaluation/run-evaluation.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "browser-automation",
+    "self-learning",
+    "ai-automation",
+    "reinforcement-learning",
+    "machine-learning",
+    "playwright",
+    "mcp",
+    "semantic-memory",
+    "session-persistence",
+    "linkedin-automation",
+    "web-scraping",
+    "intelligent-automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.2",
+    "commander": "^12.1.0",
+    "dotenv": "^17.2.3",
+    "playwright": "^1.56.1",
+    "supermemory": "^3.4.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.9.2",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

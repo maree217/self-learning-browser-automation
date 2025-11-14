@@ -1,0 +1,24 @@
+Job ID,Job Title,Company,Location,Work Mode,Salary,Easy Apply,Status,LinkedIn URL,Source,Date Found
+4333855528,Head of AI,Corndel,London UK,Not specified,Not listed,Unknown,Active,https://www.linkedin.com/jobs/view/4333855528,Web Search,2025-11-09
+PROFILE,Head of AI,Microsoft,London,Hybrid,Not listed,N/A,Profile,"https://uk.linkedin.com/in/lcassani",Profile - Luca Cassani,2025-11-09
+PROFILE,Head of AI,Moonpig,London,Not specified,Not listed,N/A,Profile,"https://uk.linkedin.com/in/peter-gostev",Profile - Peter Gostev,2025-11-09
+PROFILE,Head of AI,Jisc,Bristol UK,Not specified,Not listed,N/A,Profile,"https://uk.linkedin.com/in/sueattewell",Profile - Sue Attewell,2025-11-09
+PROFILE,Vice President | Global Head of AI,Company,Newcastle UK,Not specified,Not listed,N/A,Profile,"https://ae.linkedin.com/in/dr-shaun-barney-05895980",Profile - Dr Shaun Barney,2025-11-09
+ESTIMATED,Head of Data Science & Machine Learning,MLabs,London,Not specified,"£160K-£175K",Unknown,Active,Search Result,Indeed/LinkedIn,2025-11-09
+ESTIMATED,Director of AI and Data Strategy,Page Executive,UK,Not specified,Not listed,Unknown,Active,Search Result,LinkedIn Jobs,2025-11-09
+ESTIMATED,Head of Data Science and AI,Helixa,UK,Not specified,Not listed,Unknown,Active,"https://uk.linkedin.com/jobs/view/head-of-of-data-science-and-ai-at-helixa-2934400012",Web Search,2025-11-09
+ESTIMATED,Head of AI Assurance,DCMS (Government),London,Not specified,Civil Service,Unknown,Active,"https://uk.linkedin.com/jobs/view/head-of-ai-assurance-at-department-for-digital-culture-media-and-sport-dcms-2897558741",Government,2025-11-09
+ESTIMATED,Head of Analytics & AI Enablement,Unknown,London,Not specified,Not listed,Unknown,Active,LinkedIn Search,LinkedIn Jobs,2025-11-09
+ESTIMATED,Head of Machine Learning,Williams Lea,UK,Not specified,Not listed,Unknown,Active,LinkedIn Search,LinkedIn Jobs,2025-11-09
+ESTIMATED,Founding Head of Design,Stealth Startup (Data AI),UK,Not specified,Equity + Salary,Unknown,Active,LinkedIn Search,LinkedIn Jobs,2025-11-09
+ESTIMATED,Head of AI and Data Science,Pigment,Ledbury UK,Not specified,Not listed,Unknown,Active,LinkedIn Search,LinkedIn Jobs,2025-11-09
+ESTIMATED,"Head of Data, Analytics and AI Automation",Buckinghamshire Council,UK,Not specified,Civil Service,Unknown,Active,LinkedIn Search,Government,2025-11-09
+ESTIMATED,Director/Senior Director of AI & Engineering,Alexander Chapman,London,Not specified,Not listed,Unknown,Active,LinkedIn Search,LinkedIn Jobs,2025-11-09
+ESTIMATED,"Senior Leadership Roles (CTO, VP Engineering, Head of AI)",MLabs,London,Not specified,"Up to £300K",Unknown,Active,LinkedIn Search,LinkedIn Jobs,2025-11-09
+
+NOTES:
+"Total jobs found via web search: 16 (limited by no LinkedIn login)"
+"Expected total with LinkedIn login: 122+ jobs"
+"Salary data sparse: Only 2 of 16 have salary info"
+"Need LinkedIn browser session to extract full dataset"
+"Recommendation: Log into LinkedIn and re-run extraction for complete data"

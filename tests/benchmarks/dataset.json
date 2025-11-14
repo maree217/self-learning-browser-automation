@@ -1,0 +1,453 @@
+[
+  {
+    "id": "nav-001",
+    "category": "navigation",
+    "tool": "browser_navigate",
+    "description": "Navigate to simple HTTP page",
+    "input": {
+      "url": "http://example.com",
+      "waitUntil": "load",
+      "timeout": 60000
+    },
+    "expected": {
+      "status": "success",
+      "duration_ms_max": 5000
+    }
+  },
+  {
+    "id": "nav-002",
+    "category": "navigation",
+    "tool": "browser_navigate",
+    "description": "Navigate to HTTPS page",
+    "input": {
+      "url": "https://example.com",
+      "waitUntil": "load",
+      "timeout": 60000
+    },
+    "expected": {
+      "status": "success",
+      "duration_ms_max": 5000
+    }
+  },
+  {
+    "id": "nav-003",
+    "category": "navigation",
+    "tool": "browser_navigate",
+    "description": "Navigate with network idle wait",
+    "input": {
+      "url": "https://httpbin.org/get",
+      "waitUntil": "networkidle",
+      "timeout": 60000
+    },
+    "expected": {
+      "status": "success",
+      "duration_ms_max": 10000
+    }
+  },
+  {
+    "id": "nav-004",
+    "category": "navigation",
+    "tool": "browser_go_back",
+    "description": "Navigate back in history",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}},
+      {"tool": "browser_navigate", "params": {"url": "https://httpbin.org"}}
+    ],
+    "input": {
+      "domain": "httpbin.org"
+    },
+    "expected": {
+      "status": "success"
+    }
+  },
+  {
+    "id": "nav-005",
+    "category": "navigation",
+    "tool": "browser_go_forward",
+    "description": "Navigate forward in history",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}},
+      {"tool": "browser_navigate", "params": {"url": "https://httpbin.org"}},
+      {"tool": "browser_go_back", "params": {"domain": "httpbin.org"}}
+    ],
+    "input": {
+      "domain": "httpbin.org"
+    },
+    "expected": {
+      "status": "success"
+    }
+  },
+  {
+    "id": "interact-001",
+    "category": "interaction",
+    "tool": "browser_click",
+    "description": "Click on link element",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com",
+      "selector": "a",
+      "button": "left",
+      "clickCount": 1,
+      "timeout": 30000
+    },
+    "expected": {
+      "status": "success"
+    }
+  },
+  {
+    "id": "interact-002",
+    "category": "interaction",
+    "tool": "browser_fill",
+    "description": "Fill input field",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://httpbin.org/forms/post"}}
+    ],
+    "input": {
+      "domain": "httpbin.org",
+      "selector": "input[name='custname']",
+      "value": "Test User"
+    },
+    "expected": {
+      "status": "success"
+    }
+  },
+  {
+    "id": "interact-003",
+    "category": "interaction",
+    "tool": "browser_type",
+    "description": "Type text with delay",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://httpbin.org/forms/post"}}
+    ],
+    "input": {
+      "domain": "httpbin.org",
+      "selector": "textarea[name='comments']",
+      "text": "This is a test comment",
+      "delay": 50
+    },
+    "expected": {
+      "status": "success"
+    }
+  },
+  {
+    "id": "interact-004",
+    "category": "interaction",
+    "tool": "browser_press",
+    "description": "Press keyboard key",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com",
+      "key": "Enter",
+      "modifiers": []
+    },
+    "expected": {
+      "status": "success"
+    }
+  },
+  {
+    "id": "interact-005",
+    "category": "interaction",
+    "tool": "browser_press",
+    "description": "Press key combination",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com",
+      "key": "KeyA",
+      "modifiers": ["Control"]
+    },
+    "expected": {
+      "status": "success"
+    }
+  },
+  {
+    "id": "interact-006",
+    "category": "interaction",
+    "tool": "browser_hover",
+    "description": "Hover over element",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com",
+      "selector": "h1"
+    },
+    "expected": {
+      "status": "success"
+    }
+  },
+  {
+    "id": "interact-007",
+    "category": "interaction",
+    "tool": "browser_wait_for",
+    "description": "Wait for element to be visible",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com",
+      "selector": "body",
+      "state": "visible",
+      "timeout": 30000
+    },
+    "expected": {
+      "status": "success"
+    }
+  },
+  {
+    "id": "content-001",
+    "category": "content",
+    "tool": "browser_snapshot",
+    "description": "Take accessibility tree snapshot",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com"
+    },
+    "expected": {
+      "status": "success",
+      "has_snapshot": true
+    }
+  },
+  {
+    "id": "content-002",
+    "category": "content",
+    "tool": "browser_get_content",
+    "description": "Get page content as text",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com",
+      "format": "text"
+    },
+    "expected": {
+      "status": "success",
+      "has_content": true
+    }
+  },
+  {
+    "id": "content-003",
+    "category": "content",
+    "tool": "browser_get_content",
+    "description": "Get page content as HTML",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com",
+      "format": "html"
+    },
+    "expected": {
+      "status": "success",
+      "has_content": true
+    }
+  },
+  {
+    "id": "content-004",
+    "category": "content",
+    "tool": "browser_evaluate",
+    "description": "Execute JavaScript on page",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com",
+      "script": "() => { return document.title; }"
+    },
+    "expected": {
+      "status": "success",
+      "has_result": true
+    }
+  },
+  {
+    "id": "session-001",
+    "category": "session",
+    "tool": "browser_list_sessions",
+    "description": "List all browser sessions",
+    "input": {},
+    "expected": {
+      "status": "success",
+      "has_sessions": true
+    }
+  },
+  {
+    "id": "session-002",
+    "category": "session",
+    "tool": "browser_save_session",
+    "description": "Save session for domain",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com"
+    },
+    "expected": {
+      "status": "success"
+    }
+  },
+  {
+    "id": "session-003",
+    "category": "session",
+    "tool": "browser_enable_shared_context",
+    "description": "Enable shared context mode",
+    "input": {},
+    "expected": {
+      "status": "success",
+      "shared_context_enabled": true
+    }
+  },
+  {
+    "id": "session-004",
+    "category": "session",
+    "tool": "browser_disable_shared_context",
+    "description": "Disable shared context mode",
+    "setup": [
+      {"tool": "browser_enable_shared_context", "params": {}}
+    ],
+    "input": {},
+    "expected": {
+      "status": "success",
+      "shared_context_enabled": false
+    }
+  },
+  {
+    "id": "session-005",
+    "category": "session",
+    "tool": "browser_clear_session",
+    "description": "Clear session for domain",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://test-clear.com"}}
+    ],
+    "input": {
+      "domain": "test-clear.com"
+    },
+    "expected": {
+      "status": "success",
+      "cleared": true
+    }
+  },
+  {
+    "id": "oauth-001",
+    "category": "oauth",
+    "tool": "multi-step",
+    "description": "OAuth flow with shared context",
+    "steps": [
+      {"tool": "browser_enable_shared_context", "params": {}},
+      {"tool": "browser_navigate", "params": {"url": "https://httpbin.org/cookies/set/auth/token123"}},
+      {"tool": "browser_navigate", "params": {"url": "https://httpbin.org/cookies"}},
+      {"tool": "browser_get_content", "params": {"domain": "httpbin.org", "format": "text"}}
+    ],
+    "expected": {
+      "all_steps_success": true,
+      "cookies_preserved": true
+    }
+  },
+  {
+    "id": "error-001",
+    "category": "error_handling",
+    "tool": "browser_navigate",
+    "description": "Handle non-existent domain",
+    "input": {
+      "url": "https://this-domain-does-not-exist-12345.com",
+      "timeout": 5000
+    },
+    "expected": {
+      "status": "error",
+      "error_type": "navigation_error"
+    }
+  },
+  {
+    "id": "error-002",
+    "category": "error_handling",
+    "tool": "browser_click",
+    "description": "Handle missing element",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com",
+      "selector": ".element-that-does-not-exist",
+      "button": "left",
+      "clickCount": 1,
+      "timeout": 1000
+    },
+    "expected": {
+      "status": "error",
+      "error_type": "element_not_found"
+    }
+  },
+  {
+    "id": "error-003",
+    "category": "error_handling",
+    "tool": "browser_wait_for",
+    "description": "Handle timeout waiting for element",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com",
+      "selector": ".will-never-appear",
+      "state": "visible",
+      "timeout": 1000
+    },
+    "expected": {
+      "status": "error",
+      "error_type": "timeout"
+    }
+  },
+  {
+    "id": "perf-001",
+    "category": "performance",
+    "tool": "browser_navigate",
+    "description": "Fast page load",
+    "input": {
+      "url": "https://example.com",
+      "waitUntil": "domcontentloaded",
+      "timeout": 60000
+    },
+    "expected": {
+      "status": "success",
+      "duration_ms_max": 3000
+    }
+  },
+  {
+    "id": "perf-002",
+    "category": "performance",
+    "tool": "browser_snapshot",
+    "description": "Fast snapshot generation",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com"
+    },
+    "expected": {
+      "status": "success",
+      "duration_ms_max": 1000
+    }
+  },
+  {
+    "id": "perf-003",
+    "category": "performance",
+    "tool": "browser_evaluate",
+    "description": "Fast JavaScript execution",
+    "setup": [
+      {"tool": "browser_navigate", "params": {"url": "https://example.com"}}
+    ],
+    "input": {
+      "domain": "example.com",
+      "script": "() => { return Array.from({length: 1000}, (_, i) => i).reduce((a, b) => a + b, 0); }"
+    },
+    "expected": {
+      "status": "success",
+      "duration_ms_max": 500
+    }
+  }
+]
