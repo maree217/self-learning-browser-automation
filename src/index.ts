@@ -15,6 +15,7 @@ import { manageTabs } from './tools/tabs.js';
 import { saveSession, listSessions, clearSession, enableSharedContext, disableSharedContext } from './tools/sessions.js';
 import { uploadFile, handleDialog } from './tools/advanced.js';
 import { browserManager } from './browser-manager.js';
+import { TOOL_INDEX, searchTools } from './tools/metadata/tool-index.js';
 
 /**
  * Browser Automation MCP Server
@@ -27,7 +28,7 @@ class BrowserMCPServer {
     this.server = new Server(
       {
         name: 'browser-mcp',
-        version: '1.0.0',
+        version: '2.0.0',
       },
       {
         capabilities: {
