@@ -2,7 +2,7 @@
  * Agent Lightning Training Script
  * Trains the LinkedIn Researcher Agent using Microsoft's Agent Lightning framework
  */
-import { linkedInResearcher } from '../dist/src/agents/linkedin-researcher.js';
+import { linkedInResearcher } from '../src/agents/linkedin-researcher.js';
 import * as fs from 'fs';
 import * as path from 'path';
 
