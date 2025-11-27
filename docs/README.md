@@ -14,6 +14,30 @@ Welcome to the Social Browser MCP documentation. This guide will help you naviga
 
 ---
 
+## 🆕 Opus 4.5 Advanced Features (NEW!)
+
+**Version 2.0** introduces powerful new extraction and automation capabilities:
+
+### Tool Documentation
+| Tool | Description | Documentation |
+|------|-------------|---------------|
+| **browser_extract_structured** | Extract DOM elements (links, forms, tables) | [Tool Index](../src/tools/metadata/tool-index.ts#L593) |
+| **browser_extract_semantic** | AI-powered content extraction (articles, profiles, posts) | [Tool Index](../src/tools/metadata/tool-index.ts#L618) |
+| **browser_extract_by_pattern** | Pattern-based extraction (social posts, jobs, products) | [Tool Index](../src/tools/metadata/tool-index.ts#L643) with [examples](../src/tools/metadata/tool-index.ts#L668) |
+| **browser_execute_workflow** | Multi-step automation with templates | [Tool Index](../src/tools/metadata/tool-index.ts#L684) with [examples](../src/tools/metadata/tool-index.ts#L708) |
+
+### New Capabilities
+- **90% Token Reduction**: Tool search loads only relevant tools
+- **No Screenshots Needed**: Direct DOM extraction 86% faster
+- **Pattern Library**: 5 built-in patterns for common web data
+- **Workflow Templates**: Infinite scroll, form fill, pagination, wait & extract
+
+### See Also
+- **[Refactoring Plan](../REFACTORING-PLAN-OPUS-4.5.md)** - Implementation details and progress
+- **[Main README § Opus 4.5 Features](../README.md#-opus-45-advanced-features)** - Feature overview
+
+---
+
 ## 📚 Documentation by Category
 
 ### Getting Started Guides

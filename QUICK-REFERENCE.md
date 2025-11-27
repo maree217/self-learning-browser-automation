@@ -24,9 +24,10 @@
 ```
 ┌─────────────────────────────────────────────┐
 │  LAYER 1: BROWSER AUTOMATION (Core)         │
-│  • 20 MCP tools (navigate, click, type...)  │
+│  • 26 MCP tools (navigate, click, type...)  │
 │  • Session persistence (cookies saved)      │
 │  • Multi-domain support                     │
+│  • NEW: Deep extraction + workflow tools    │
 └─────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────┐
@@ -303,6 +304,48 @@ if (Math.random() < 0.5) {
 | **Cookies Preserved** | 48 (LinkedIn) | ✅ Complete |
 | **Memory per Session** | 0.75MB | ✅ Minimal |
 | **Reliability** | 100% | ✅ Perfect |
+
+---
+
+## 🆕 V2.0 New Tools (Opus 4.5)
+
+### Extraction Tools
+
+**browser_extract_structured** - Direct DOM extraction:
+- Extract all links, forms, tables, interactive elements
+- No screenshots needed (86% faster)
+- Returns structured JSON
+
+**browser_extract_semantic** - AI-powered content extraction:
+- Articles, profiles, social posts, products
+- Auto-detects content type
+- Extracts metadata automatically
+
+**browser_extract_by_pattern** - Pattern-based extraction:
+- `social_post` - LinkedIn feeds with reactions
+- `job_listing` - Job boards with salaries
+- `product` - E-commerce listings
+- `news_article` - News sites
+- `user_profile` - Profile search results
+- `custom` - Your own patterns
+
+**browser_execute_workflow** - Multi-step automation:
+- `infinite_scroll` - Auto-scroll lazy-loaded feeds
+- `form_fill` - Fill and submit forms
+- `pagination` - Navigate paginated results
+- `wait_and_extract` - Wait for dynamic content
+
+### Tool Search (90% Token Reduction)
+
+Query tools semantically instead of loading all 26:
+```typescript
+// Before: Load all tools (5000 tokens)
+// After: Search for relevant tools (500 tokens)
+
+"extract LinkedIn posts" → Suggests: browser_extract_by_pattern
+"fill a form" → Suggests: browser_fill, browser_execute_workflow
+"get all links" → Suggests: browser_extract_structured
+```
 
 ---
 

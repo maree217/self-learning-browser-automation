@@ -334,7 +334,7 @@ Week 5+: Deploy if improved, continue collecting
 }
 ```
 
-### All 20 MCP Tools are Logged:
+### All 26 MCP Tools are Logged:
 
 **Navigation:**
 - `browser_navigate` - Every page load
@@ -364,6 +364,12 @@ Week 5+: Deploy if improved, continue collecting
 - `browser_clear_session` - Session clears
 - `browser_enable_shared_context` - Context switches
 - `browser_disable_shared_context` - Context switches
+
+**NEW - Extraction (V2.0 Opus 4.5):**
+- `browser_extract_structured` - Extract DOM elements (links, forms, tables)
+- `browser_extract_semantic` - AI-powered content extraction (articles, profiles, posts, products)
+- `browser_extract_by_pattern` - Pattern-based extraction (social_post, job_listing, product, news_article, user_profile)
+- `browser_execute_workflow` - Multi-step automation (infinite_scroll, form_fill, pagination, wait_and_extract)
 
 **EVERY SINGLE ONE is logged with full context.**
 
