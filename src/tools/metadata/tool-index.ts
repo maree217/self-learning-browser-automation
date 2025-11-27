@@ -49,6 +49,26 @@ export const TOOL_INDEX: Record<string, ToolMetadata> = {
       'Just going back in history (use browser_go_back)',
       'Page is already loaded',
       'Need to click a link instead (use browser_click)'
+    ],
+    examples: [
+      {
+        scenario: 'Open LinkedIn profile for research',
+        input: { url: 'https://www.linkedin.com/in/johndoe' },
+        when_to_use: 'Starting a new browsing session to gather profile information',
+        expected_output: 'Page loads successfully, session saved for linkedin.com domain'
+      },
+      {
+        scenario: 'Navigate to job posting',
+        input: { url: 'https://www.linkedin.com/jobs/view/123456' },
+        when_to_use: 'Need to view a specific job listing',
+        common_mistakes: ['Using navigate when already on the domain (wasteful)', 'Not waiting for page load before interacting']
+      },
+      {
+        scenario: 'Load search results page',
+        input: { url: 'https://www.google.com/search?q=anthropic+claude' },
+        when_to_use: 'Starting a search task on a search engine',
+        expected_output: 'Google search results page loaded and ready'
+      }
     ]
   },
 
@@ -119,6 +139,27 @@ export const TOOL_INDEX: Record<string, ToolMetadata> = {
       'Element not yet visible (use browser_wait_for first)',
       'Need to type text (use browser_type)',
       'Just hovering (use browser_hover)'
+    ],
+    examples: [
+      {
+        scenario: 'Click "Connect" button on LinkedIn profile',
+        input: { selector: 'button[aria-label*="Connect"]' },
+        when_to_use: 'Need to send a connection request to a LinkedIn profile',
+        expected_output: 'Connection modal opens or request is sent',
+        common_mistakes: ['Not waiting for button to be visible', 'Using text content instead of aria-label']
+      },
+      {
+        scenario: 'Submit job application form',
+        input: { selector: 'button[type="submit"]' },
+        when_to_use: 'After filling out all form fields',
+        expected_output: 'Form is submitted, confirmation page loads'
+      },
+      {
+        scenario: 'Expand "See more" content section',
+        input: { selector: '.show-more-less-html__button--more' },
+        when_to_use: 'Need to view truncated LinkedIn content',
+        expected_output: 'Hidden content becomes visible'
+      }
     ]
   },
 
@@ -545,6 +586,138 @@ export const TOOL_INDEX: Record<string, ToolMetadata> = {
     when_not_to_use: [
       'HTML modal (use browser_click)',
       'Custom popup component'
+    ]
+  },
+
+  // NEW EXTRACTION TOOLS (Opus 4.5 Refactor)
+  'browser_extract_structured': {
+    name: 'browser_extract_structured',
+    category: 'extraction',
+    description: 'Deep extraction of DOM elements: links, forms, tables, interactive elements',
+    searchable_keywords: ['extract', 'structured', 'dom', 'links', 'forms', 'tables', 'data', 'deep'],
+    use_cases: [
+      'Extract all links from a page with metadata',
+      'Get form structures and field information',
+      'Parse table data into structured format',
+      'Identify interactive elements on page'
+    ],
+    related_tools: ['browser_get_content', 'browser_extract_semantic', 'browser_extract_by_pattern'],
+    when_to_use: [
+      'Need detailed DOM structure information',
+      'Extracting navigation links',
+      'Analyzing form fields',
+      'Getting table data without screenshots'
+    ],
+    when_not_to_use: [
+      'Need semantic understanding (use browser_extract_semantic)',
+      'Looking for specific patterns (use browser_extract_by_pattern)',
+      'Simple text extraction (use browser_get_content)'
+    ]
+  },
+
+  'browser_extract_semantic': {
+    name: 'browser_extract_semantic',
+    category: 'extraction',
+    description: 'AI-powered extraction of semantically meaningful content (articles, profiles, posts, products)',
+    searchable_keywords: ['extract', 'semantic', 'article', 'profile', 'post', 'product', 'content', 'ai'],
+    use_cases: [
+      'Extract article content with metadata',
+      'Get LinkedIn profile information',
+      'Parse social media posts',
+      'Extract product details from e-commerce'
+    ],
+    related_tools: ['browser_extract_structured', 'browser_extract_by_pattern', 'browser_get_content'],
+    when_to_use: [
+      'Need article title, author, date, content',
+      'Extracting user profiles with experience/education',
+      'Getting social post engagement metrics',
+      'Product information with ratings/reviews'
+    ],
+    when_not_to_use: [
+      'Need specific DOM patterns (use browser_extract_by_pattern)',
+      'Raw HTML structure needed (use browser_extract_structured)',
+      'Simple text content (use browser_get_content)'
+    ]
+  },
+
+  'browser_extract_by_pattern': {
+    name: 'browser_extract_by_pattern',
+    category: 'extraction',
+    description: 'Extract content using predefined patterns for common data types',
+    searchable_keywords: ['extract', 'pattern', 'social', 'job', 'product', 'news', 'profile', 'linkedin'],
+    use_cases: [
+      'Extract multiple social posts from feed',
+      'Get job listings with salary/location',
+      'Parse product listings with prices',
+      'Extract news articles from homepage',
+      'Get user profiles from search results'
+    ],
+    related_tools: ['browser_extract_semantic', 'browser_extract_structured', 'browser_execute_workflow'],
+    when_to_use: [
+      'Extracting multiple items of same type',
+      'LinkedIn feed scraping',
+      'Job board extraction',
+      'E-commerce product lists',
+      'News aggregation'
+    ],
+    when_not_to_use: [
+      'Single item extraction (use browser_extract_semantic)',
+      'Custom non-standard patterns (use browser_extract_structured)',
+      'Need workflow with pagination (use browser_execute_workflow)'
+    ],
+    examples: [
+      {
+        scenario: 'Extract LinkedIn posts from feed',
+        input: { pattern: 'social_post', limit: 10 },
+        when_to_use: 'Analyzing post engagement on LinkedIn feed',
+        expected_output: 'Array of posts with author, content, likes, comments, shares'
+      },
+      {
+        scenario: 'Get job listings with filters',
+        input: { pattern: 'job_listing', filters: { location_contains: 'Remote' }, limit: 20 },
+        when_to_use: 'Finding remote job opportunities',
+        expected_output: 'Array of remote jobs with title, company, salary, requirements'
+      }
+    ]
+  },
+
+  'browser_execute_workflow': {
+    name: 'browser_execute_workflow',
+    category: 'advanced',
+    description: 'Execute multi-step workflows with templates (infinite scroll, form fill, pagination)',
+    searchable_keywords: ['workflow', 'automation', 'scroll', 'pagination', 'form', 'multi-step', 'template'],
+    use_cases: [
+      'Auto-scroll to load all content',
+      'Fill and submit forms',
+      'Navigate through paginated results',
+      'Wait for elements and extract data',
+      'Complex multi-step browser automation'
+    ],
+    related_tools: ['browser_extract_by_pattern', 'browser_click', 'browser_type', 'browser_wait_for'],
+    when_to_use: [
+      'Need to scroll through infinite feed',
+      'Filling out multi-field forms',
+      'Collecting data across multiple pages',
+      'Complex automation requiring multiple steps'
+    ],
+    when_not_to_use: [
+      'Simple single action (use individual tools)',
+      'No repetitive patterns needed',
+      'Static page extraction'
+    ],
+    examples: [
+      {
+        scenario: 'Scroll LinkedIn feed and extract posts',
+        input: { template: 'infinite_scroll', template_params: { item_selector: '.feed-shared-update-v2', max_scrolls: 5 } },
+        when_to_use: 'Need to load and extract posts from lazy-loaded feed',
+        expected_output: 'All posts loaded after 5 scrolls with items collected count'
+      },
+      {
+        scenario: 'Fill job application form',
+        input: { template: 'form_fill', template_params: { fields: [{ selector: '#name', value: 'John Doe' }], submit_selector: 'button[type="submit"]' } },
+        when_to_use: 'Automating job application submission',
+        expected_output: 'Form filled and submitted successfully'
+      }
     ]
   }
 };
